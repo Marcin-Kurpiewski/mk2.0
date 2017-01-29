@@ -1,52 +1,4 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-
-body {
-  line-height: 1;
-}
-
-ol, ul {
-  list-style: none;
-}
-
-blockquote, q {
-  quotes: none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
+@import 'reset.css';
 
 $mainColor: #0d48de;
 
@@ -54,7 +6,7 @@ $mainColor: #0d48de;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 @font-face {
@@ -69,7 +21,7 @@ body {
 
 }
 
-.home {
+#home {
   background: url("images/1_Home/bg.jpg") no-repeat;
   background-position: center;
   background-size: cover;
@@ -79,16 +31,16 @@ body {
     background-position: 50% 50%;
     height: 100vh;
 
-  }
   .bg2 {
     background: url("images/1_Home/sphere_small.png") no-repeat;
     background-position: 50% 50%;
     height: 100vh;
-
+  }
   }
 
   h1 {
     @extend .flexCenter;
+    align-items: flex-start;
     background-color: #030416;
     height: 280px;
     width: 280px;
@@ -100,66 +52,75 @@ body {
     text-transform: uppercase;
     overflow: hidden;
 
-  }
-  h1::after {
-    content: "";
-    background-color: #fff;
-    background: url("images/1_Home/scroll_1and2.png") no-repeat;
-    background-size: cover;
-    border-radius: 16px;
-    width: 32px;
-    height: 32px;
-    position: absolute;
-    top: 86px;
-    right: 43px;
-  }
-  .h1__span {
-    margin-left: 16%;
-  }
-  .h1__span:first-child {
-  border-top: solid;
+    &::after {
+      content: "";
+      background-color: #fff;
+      background: url("images/1_Home/scroll_1and2.png") no-repeat;
+      background-size: cover;
+      border-radius: 16px;
+      width: 32px;
+      height: 32px;
+      position: absolute;
+      top: 86px;
+      right: 43px;
 
-  }
-  .h1__span:nth-child(2) {
-    font-weight: 600;
-  }
-  .h1__span:last-child{
-    border-bottom: solid;
-  }
+      .h1__span {
+        margin-left: 16%;
 
-  .fa {
-    color: #fff;
-  }
-  .nav_btn__mobile, .nav__list, .nav__list > li {
-    display: inline-block;
-    margin-left: 32px;
-  }
-  .nav_btn__mobile {
-    padding-top: 16px;
+      .h1__span:first-child {
+        border-top: solid;
 
-  }
-  .nav__list__item {
-    font-weight: 600;
-    cursor: pointer;
-  }
-  .nav__list__item:hover {
-    color: $mainColor;
-    font-weight: 700;
-    border-bottom: solid;
-    padding-bottom: 10px;
 
-  }
-  .social__bar {
-    position: absolute;
-    top: calc(50% - 96px);
-    left: calc(100% - 64px);
+      .h1__span:nth-child(2) {
+        font-weight: 600;
 
-  }
-  .social__bar__item {
-    padding: 32px 32px 0 0;
-  }
-  .social__bar__item:hover {
-    color: $mainColor;
-  }
+        .h1__span:last-child {
+          border-bottom: solid;
+        }
+      }}}}}
+
+
+      .fa {
+        color: #fff;
+      }
+      .nav_btn__mobile, .nav__list, .nav__list > li {
+        display: inline-block;
+        margin-left: 32px;
+      }
+      .nav_btn__mobile {
+        padding-top: 16px;
+
+      }
+      .nav__list__item {
+        font-weight: 600;
+        cursor: pointer;
+
+        &:hover {
+          color: $mainColor;
+          font-weight: 700;
+          border-bottom: solid;
+          padding-bottom: 10px;
+
+        }
+      }
+
+      .social__bar {
+        position: absolute;
+        top: calc(50% - 96px);
+        left: calc(100% - 64px);
+
+        .social__bar__item {
+          padding: 32px 32px 0 0;
+          & :hover {
+            color: $mainColor;
+          }
+        }
+      }
+    }
+
+.logo{
+  position: absolute;
+  @extend .flexCenter;
+  justify-content: space-around;
 
 }

@@ -1,51 +1,9 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-body {
-  line-height: 1; }
-
-ol, ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-.flexCenter, .home h1 {
+@import url(reset.css);
+.flexCenter, #home h1, .logo {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start; }
+  align-items: center; }
 
 @font-face {
   font-family: Ubuntu sans-serif;
@@ -55,20 +13,21 @@ body {
   color: #fff;
   background-color: #030416; }
 
-.home {
+#home {
   background: url("images/1_Home/bg.jpg") no-repeat;
   background-position: center;
   background-size: cover;
   height: 100vh; }
-  .home .bg1 {
+  #home .bg1 {
     background: url("images/1_Home/sphere_big .png") no-repeat;
     background-position: 50% 50%;
     height: 100vh; }
-  .home .bg2 {
-    background: url("images/1_Home/sphere_small.png") no-repeat;
-    background-position: 50% 50%;
-    height: 100vh; }
-  .home h1 {
+    #home .bg1 .bg2 {
+      background: url("images/1_Home/sphere_small.png") no-repeat;
+      background-position: 50% 50%;
+      height: 100vh; }
+  #home h1 {
+    align-items: flex-start;
     background-color: #030416;
     height: 280px;
     width: 280px;
@@ -79,47 +38,51 @@ body {
     font-size: 35px;
     text-transform: uppercase;
     overflow: hidden; }
-  .home h1::after {
-    content: "";
-    background-color: #fff;
-    background: url("images/1_Home/scroll_1and2.png") no-repeat;
-    background-size: cover;
-    border-radius: 16px;
-    width: 32px;
-    height: 32px;
-    position: absolute;
-    top: 86px;
-    right: 43px; }
-  .home .h1__span {
-    margin-left: 16%; }
-  .home .h1__span:first-child {
-    border-top: solid; }
-  .home .h1__span:nth-child(2) {
-    font-weight: 600; }
-  .home .h1__span:last-child {
-    border-bottom: solid; }
-  .home .fa {
+    #home h1::after {
+      content: "";
+      background-color: #fff;
+      background: url("images/1_Home/scroll_1and2.png") no-repeat;
+      background-size: cover;
+      border-radius: 16px;
+      width: 32px;
+      height: 32px;
+      position: absolute;
+      top: 86px;
+      right: 43px; }
+      #home h1::after .h1__span {
+        margin-left: 16%; }
+        #home h1::after .h1__span .h1__span:first-child {
+          border-top: solid; }
+          #home h1::after .h1__span .h1__span:first-child .h1__span:nth-child(2) {
+            font-weight: 600; }
+            #home h1::after .h1__span .h1__span:first-child .h1__span:nth-child(2) .h1__span:last-child {
+              border-bottom: solid; }
+  #home .fa {
     color: #fff; }
-  .home .nav_btn__mobile, .home .nav__list, .home .nav__list > li {
+  #home .nav_btn__mobile, #home .nav__list, #home .nav__list > li {
     display: inline-block;
     margin-left: 32px; }
-  .home .nav_btn__mobile {
+  #home .nav_btn__mobile {
     padding-top: 16px; }
-  .home .nav__list__item {
+  #home .nav__list__item {
     font-weight: 600;
     cursor: pointer; }
-  .home .nav__list__item:hover {
-    color: #0d48de;
-    font-weight: 700;
-    border-bottom: solid;
-    padding-bottom: 10px; }
-  .home .social__bar {
+    #home .nav__list__item:hover {
+      color: #0d48de;
+      font-weight: 700;
+      border-bottom: solid;
+      padding-bottom: 10px; }
+  #home .social__bar {
     position: absolute;
     top: calc(50% - 96px);
     left: calc(100% - 64px); }
-  .home .social__bar__item {
-    padding: 32px 32px 0 0; }
-  .home .social__bar__item:hover {
-    color: #0d48de; }
+    #home .social__bar .social__bar__item {
+      padding: 32px 32px 0 0; }
+      #home .social__bar .social__bar__item :hover {
+        color: #0d48de; }
+
+.logo {
+  position: absolute;
+  justify-content: space-around; }
 
 /*# sourceMappingURL=style.css.map */
