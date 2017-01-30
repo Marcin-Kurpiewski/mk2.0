@@ -31,15 +31,17 @@ body {
     background-position: 50% 50%;
     height: 100vh;
 
-  .bg2 {
-    background: url("images/1_Home/sphere_small.png") no-repeat;
-    background-position: 50% 50%;
-    height: 100vh;
-  }
+    .bg2 {
+      background: url("images/1_Home/sphere_small.png") no-repeat;
+      background-position: 50% 50%;
+      height: 100vh;
+    }
   }
 
   h1 {
-    @extend .flexCenter;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
     background-color: #030416;
     height: 280px;
@@ -67,60 +69,65 @@ body {
       .h1__span {
         margin-left: 16%;
 
-      .h1__span:first-child {
-        border-top: solid;
+        .h1__span:first-child {
+          border-top: solid;
 
+          .h1__span:nth-child(2) {
+            font-weight: 600;
 
-      .h1__span:nth-child(2) {
-        font-weight: 600;
-
-        .h1__span:last-child {
-          border-bottom: solid;
-        }
-      }}}}}
-
-
-      .fa {
-        color: #fff;
-      }
-      .nav_btn__mobile, .nav__list, .nav__list > li {
-        display: inline-block;
-        margin-left: 32px;
-      }
-      .nav_btn__mobile {
-        padding-top: 16px;
-
-      }
-      .nav__list__item {
-        font-weight: 600;
-        cursor: pointer;
-
-        &:hover {
-          color: $mainColor;
-          font-weight: 700;
-          border-bottom: solid;
-          padding-bottom: 10px;
-
-        }
-      }
-
-      .social__bar {
-        position: absolute;
-        top: calc(50% - 96px);
-        left: calc(100% - 64px);
-
-        .social__bar__item {
-          padding: 32px 32px 0 0;
-          & :hover {
-            color: $mainColor;
+            .h1__span:last-child {
+              border-bottom: solid;
+            }
           }
         }
       }
     }
+  }
 
-.logo{
+  .fa {
+    color: #fff;
+  }
+  .nav_btn__mobile, .nav__list, .nav__list > li {
+    display: inline-block;
+    margin-left: 32px;
+  }
+  .nav_btn__mobile {
+    padding-top: 16px;
+
+  }
+  .nav__list__item {
+    font-weight: 600;
+    cursor: pointer;
+
+    &:hover {
+      color: $mainColor;
+      font-weight: 700;
+      border-bottom: solid;
+      padding-bottom: 10px;
+
+    }
+  }
+
+  .social__bar {
+    position: absolute;
+    top: calc(50% - 96px);
+    left: calc(100% - 64px);
+
+    .social__bar__item {
+      padding: 32px 32px 0 0;
+      & :hover {
+        color: $mainColor;
+      }
+    }
+  }
+}
+
+.logo {
+  margin: 0;
   position: absolute;
-  @extend .flexCenter;
-  justify-content: space-around;
+  top: 72px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
 
 }

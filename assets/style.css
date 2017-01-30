@@ -1,5 +1,5 @@
 @import url(reset.css);
-.flexCenter, #home h1, .logo {
+.flexCenter {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,6 +27,9 @@ body {
       background-position: 50% 50%;
       height: 100vh; }
   #home h1 {
+    display: flex;
+    flex-direction: co;
+    justify-content: center;
     align-items: flex-start;
     background-color: #030416;
     height: 280px;
@@ -82,7 +85,11 @@ body {
         color: #0d48de; }
 
 .logo {
+  margin: 0;
   position: absolute;
-  justify-content: space-around; }
+  top: 72px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%); }
 
 /*# sourceMappingURL=style.css.map */
