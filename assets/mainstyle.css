@@ -27,9 +27,6 @@ body {
   height: 100vh;
   width: 100%; }
   .home h1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     background-color: #030416;
     height: 280px;
     width: 280px;
@@ -47,17 +44,28 @@ body {
       background-color: #fff;
       background: url("images/1_Home/scroll_1and2.png") no-repeat;
       background-size: cover;
-      border-radius: 16px;
-      width: 32px;
-      height: 32px;
+      width: 12px;
+      height: 12px;
       position: absolute;
-      top: 86px;
-      right: 43px; }
+      z-index: 10;
+      top: 54px;
+      right: 28px;
+      border-radius: 50px; }
+    .home h1 .span_1 {
+      display: block;
+      position: relative;
+      top: calc(50% - 29px);
+      left: 35px; }
+      .home h1 .span_1 .span_2 {
+        border-top: 1px solid #fff;
+        padding-top: 3px; }
+      .home h1 .span_1 .span_3 {
+        border-bottom: 1px solid #fff;
+        padding-bottom: 5px; }
+    .home h1 .span_1:nth-child(2n) {
+      font-weight: bold; }
 
-.fa {
-  color: #fff; }
-
-.nav {
+header {
   background-color: #030416;
   opacity: 0.7;
   position: relative;
@@ -65,175 +73,202 @@ body {
   text-align: center;
   display: flex;
   justify-content: space-around;
-  align-items: flex-start; }
+  align-content: center; }
+  header .nav__close {
+    visibility: hidden;
+    display: none; }
+  header .nav_show {
+    visibility: visible;
+    transition: visibility 2ms; }
+  header .nav__list__item > a {
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 1.75;
+    cursor: pointer;
+    text-align: center; }
+    header .nav__list__item > a:hover {
+      color: #0d48de;
+      font-weight: 700; }
+  header .btn__logo__mobile .logo__mobile {
+    max-width: 41.14px;
+    margin-top: 5px; }
+  header .btn__logo__desktop {
+    visibility: hidden;
+    display: none;
+    margin: 0;
+    position: absolute;
+    top: 72px;
+    left: 50%;
+    transform: translate(-50%, -50%); }
 
-.nav__list_close {
-  color: red; }
+.fa {
+  color: #fff; }
 
-.nav__list {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  display: flex;
-  flex-direction: column; }
-
-.nav__list__item > a {
-  color: #fff;
-  height: 30px;
-  font-weight: 600;
-  letter-spacing: -1px;
-  line-height: 1.75;
-  cursor: pointer;
-  text-align: center; }
-  .nav__list__item > a:hover {
-    color: #0d48de;
-    font-weight: 700; }
-
-.btn__logo__mob .logo__mob {
-  max-height: 48px;
-  margin-top: 15px; }
-
-.btn__logo__des {
-  visibility: hidden;
-  display: none;
-  margin: 0;
+.social__bar {
   position: absolute;
-  top: 72px;
-  left: 50%;
-  transform: translate(-50%, -50%); }
-
-.nav__btn {
-  margin-top: 15px; }
+  top: calc(50% - 96px);
+  left: calc(100% - 64px); }
+  .social__bar .social__bar__item {
+    padding: 32px 32px 0 0; }
+    .social__bar .social__bar__item :hover {
+      color: #0d48de; }
 
 .about {
   background: url("images/2_About/graphic_element2.png") no-repeat;
   background-position: top left; }
+  .about h2 {
+    font-size: 36px;
+    color: #c5c5c5;
+    letter-spacing: -1px;
+    text-align: right;
+    padding: 5% 10% 0 0;
+    order: 1; }
+    .about h2::before {
+      content: "01";
+      color: #0d48de;
+      font-weight: bold;
+      display: inline-block;
+      position: relative;
+      margin-right: 10px; }
   .about .about-bg {
     background: url("images/2_About/graphic_element.png") no-repeat;
     background-position: bottom right;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; }
-    .about .about-bg h2 {
-      font-size: 100px;
-      color: #c5c5c5;
-      letter-spacing: -1px;
-      text-align: right;
-      padding: 5% 10% 0 0;
-      order: 2;
-      width: 50%; }
-      .about .about-bg h2::before {
-        content: "01";
-        color: #0d48de;
-        font-weight: bold;
-        font-size: 300px;
-        letter-spacing: -1px;
-        display: block;
-        text-align: right; }
+    flex-direction: column;
+    align-items: center; }
     .about .about-bg .about-img {
-      order: 1;
-      width: 50%;
-      text-align: center;
-      margin-top: 5%;
-      max-width: 400px;
-      margin-left: auto;
-      margin-right: auto; }
-    .about .about-bg .about__btn {
+      order: 2;
+      flex-basis: 100%;
+      margin-top: 15%; }
+      .about .about-bg .about-img .main-photo {
+        max-width: 50%;
+        display: block;
+        margin: 5% auto; }
+    .about .about-bg .download__btn {
       order: 3;
-      width: 50%;
+      flex-basis: 100%;
       text-decoration: none;
       text-transform: uppercase;
       color: #0d48de;
-      font-size: 30px;
+      font-size: 18px;
       font-weight: bold;
-      text-align: center; }
-      .about .about-bg .about__btn img {
-        position: relative;
-        top: 35px;
-        left: 10px; }
+      text-align: center;
+      margin-top: 15%; }
+      .about .about-bg .download__btn:hover {
+        color: #c5c5c5; }
+      .about .about-bg .download__btn img {
+        display: block;
+        max-width: 20%;
+        margin: 15% auto; }
     .about .about-bg .about__list {
       order: 4;
-      width: 50%; }
+      width: 90%; }
       .about .about-bg .about__list dl {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 100%; }
+        margin-bottom: 15%; }
         .about .about-bg .about__list dl dt, .about .about-bg .about__list dl dd {
-          width: 30%;
-          font-size: 30px;
+          display: inline-block;
+          width: 40%;
+          font-size: 18px;
           line-height: 2;
           color: #919191;
           font-weight: bold; }
         .about .about-bg .about__list dl dd {
-          width: 70%;
+          width: 55%;
           text-align: right; }
 
 .education {
   background: url("images/3_Education/graphi_2.png") no-repeat;
   background-position-x: 20%;
   background-position-y: top; }
-  .education .education-bg {
-    background: url("images/3_Education/graphi_1.png") no-repeat;
-    background-position: bottom right; }
-    .education .education-bg h2 {
-      font-size: 100px;
-      color: #c5c5c5;
-      letter-spacing: -1px;
-      text-align: right;
-      padding: 5% 10% 0 0; }
-      .education .education-bg h2::before {
-        content: "01";
-        color: #0d48de;
-        font-weight: bold;
-        font-size: 300px;
-        letter-spacing: -1px;
-        display: block;
-        text-align: right; }
-      .education .education-bg h2::before {
-        content: "02"; }
-    .education .education-bg .education-list {
-      width: 40%;
-      margin-left: 5%;
-      text-align: right;
-      position: relative;
-      top: -250px; }
-      .education .education-bg .education-list h3, .education .education-bg .education-list p {
-        font-size: 48px;
-        line-height: 1.5;
-        letter-spacing: -10;
-        color: #cecece;
-        font-weight: bold;
-        display: inline-block; }
-      .education .education-bg .education-list p {
-        color: #0d48de;
-        display: block; }
-      .education .education-bg .education-list img {
-        position: relative;
-        top: 90px;
-        right: 70px; }
-
-.skills {
-  background: url("images/4_Skills/graphic-element.png") no-repeat;
-  background-position: bottom center; }
-  .skills h2 {
-    font-size: 100px;
+  .education h2 {
+    font-size: 36px;
     color: #c5c5c5;
     letter-spacing: -1px;
     text-align: right;
     padding: 5% 10% 0 0; }
-    .skills h2::before {
+    .education h2::before {
       content: "01";
       color: #0d48de;
       font-weight: bold;
-      font-size: 300px;
-      letter-spacing: -1px;
+      display: inline-block;
+      position: relative;
+      margin-right: 10px; }
+    .education h2::before {
+      content: "02"; }
+  .education .education-bg .edu__box {
+    margin: 10% 5%; }
+    .education .education-bg .edu__box .edu_img {
+      display: inline-block;
+      width: 25%; }
+      .education .education-bg .edu__box .edu_img img {
+        max-width: 45%; }
+    .education .education-bg .edu__box .edu__txt {
+      display: inline-block;
+      width: 74%; }
+      .education .education-bg .edu__box .edu__txt h3, .education .education-bg .edu__box .edu__txt p {
+        font-size: 18px;
+        line-height: 1.5;
+        letter-spacing: -10;
+        color: #cecece;
+        font-weight: bold;
+        width: 100%;
+        text-align: right;
+        margin: 0;
+        padding: 0; }
+      .education .education-bg .edu__box .edu__txt p {
+        color: #0d48de; }
+
+.skills h2 {
+  font-size: 36px;
+  color: #c5c5c5;
+  letter-spacing: -1px;
+  text-align: right;
+  padding: 5% 10% 0 0; }
+  .skills h2::before {
+    content: "01";
+    color: #0d48de;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px; }
+  .skills h2::before {
+    content: "03"; }
+.skills .skills__box {
+  width: 90%;
+  text-align: center;
+  margin: 10% auto;
+  background: url("images/4_Skills/graphic-element.png") no-repeat;
+  background-position: bottom center;
+  background-size: 80%; }
+  .skills .skills__box .skills__img {
+    max-width: 20%; }
+  .skills .skills__box .skills__title {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    margin: 5% 0; }
+    .skills .skills__box .skills__title span {
+      border-bottom: 2px solid #fff;
+      padding-bottom: 5px; }
+    .skills .skills__box .skills__title img {
       display: block;
-      text-align: right; }
-    .skills h2::before {
-      content: "03"; }
+      text-align: center;
+      margin: 5% auto; }
+  .skills .skills__box ul {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto; }
+  .skills .skills__box li {
+    text-align: center;
+    font-weight: lighter;
+    letter-spacing: -1px;
+    line-height: 1.5;
+    color: #c5c5c5; }
 
 .portfolio h2 {
-  font-size: 100px;
+  font-size: 36px;
   color: #c5c5c5;
   letter-spacing: -1px;
   text-align: right;
@@ -242,15 +277,56 @@ body {
     content: "01";
     color: #0d48de;
     font-weight: bold;
-    font-size: 300px;
-    letter-spacing: -1px;
-    display: block;
-    text-align: right; }
+    display: inline-block;
+    position: relative;
+    margin-right: 10px; }
   .portfolio h2::before {
     content: "04"; }
+.portfolio .portfolio__box {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .portfolio .portfolio__box .port_list {
+    background: url("images/5_Portfolio/port_icon.png") no-repeat;
+    background-size: 60%;
+    background-position: center;
+    max-width: 391px;
+    max-height: 391px;
+    width: 100%; }
+    .portfolio .portfolio__box .port_list:hover {
+      background-color: #d42f3e;
+      transition: 2ms; }
+    .portfolio .portfolio__box .port_list h3 {
+      font-size: 23px;
+      line-height: 140px; }
+    .portfolio .portfolio__box .port_list li {
+      line-height: 28px; }
+  .portfolio .portfolio__box .box1 {
+    background: url("images/5_Portfolio/box_1.jpg") no-repeat;
+    background-size: cover; }
+  .portfolio .portfolio__box .box2 {
+    background: url("images/5_Portfolio/box_2.jpg") no-repeat;
+    background-size: cover; }
+  .portfolio .portfolio__box .box3 {
+    background: url("images/5_Portfolio/box_3.jpg") no-repeat;
+    background-size: cover; }
+  .portfolio .portfolio__box .box4, .portfolio .portfolio__box .box5, .portfolio .portfolio__box .box6, .portfolio .portfolio__box .box7, .portfolio .portfolio__box .box8 {
+    background: url("images/5_Portfolio/port_icon.png") no-repeat;
+    background-size: 80%;
+    background-position: center; }
+  .portfolio .portfolio__box .port__item {
+    background-color: #050515;
+    opacity: 0.8;
+    width: 100%; }
+  .portfolio .portfolio__box .port_list:hover {
+    background-color: #d42f3e;
+    opacity: 0.8; }
 
 .contact h2 {
-  font-size: 100px;
+  font-size: 36px;
   color: #c5c5c5;
   letter-spacing: -1px;
   text-align: right;
@@ -259,10 +335,9 @@ body {
     content: "01";
     color: #0d48de;
     font-weight: bold;
-    font-size: 300px;
-    letter-spacing: -1px;
-    display: block;
-    text-align: right; }
+    display: inline-block;
+    position: relative;
+    margin-right: 10px; }
   .contact h2::before {
     content: "05"; }
 
