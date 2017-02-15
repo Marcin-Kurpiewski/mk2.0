@@ -9,28 +9,65 @@
 </head>
 <body>
 
-
-<div class="bg1">
-    <div class="bg2">
-        <section class="home" id="home">
+<section class="home" id="home">
+    <div class="bg1">
+        <div class="bg2">
             <h1><span class="span_1"><span class="span_2">jun</span>ior</span><span class="span_1"> frontend </span><span
                     class="span_1">develo<span class="span_3">per</span>
             </span></h1>
 
-            <header>
-                <a href="" class="burger" id="burger"><i class="fa fa-bars fa-3x" aria-hidden="true"></i></a>
-                <nav class="nav__close">
-                    <ul class="nav__list">
-                        <li class="nav__list__item"><a href="#home">Home</a></li>
-                        <li class="nav__list__item"><a href="#about">About</a></li>
-                        <li class="nav__list__item"><a href="#education">Education</a></li>
-                        <li class="nav__list__item"><a href="#skills">Skills</a></li>
-                        <li class="nav__list__item"><a href="#portfolio">Portfolio</a></li>
-                        <li class="nav__list__item"><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
-                <a href="#home" class="btn__logo__mobile"><img src="assets/images/6_Contact/log.png" class="logo__mobile" alt=""></a>
-                <a href="#home" class="btn__logo__desktop"><img src="assets/images/1_Home/logo.png" class="logo__desktop" alt=""></a>
+            <header class="">
+                <div class="header__box">
+                    <a href="" class="burger__btn"><i class="fa fa-bars fa-3x" aria-hidden="true"></i></a>
+                </div>
+                <div class="header__box header__box_2">
+                    <nav class="nav">
+                        <ul class="menu">
+                            <li><a href="#home" class="nav__list__item">Home</a></li>
+                            <li><a href="#about" class="nav__list__item">About</a></li>
+                            <li><a href="#education" class="nav__list__item">Education</a></li>
+                            <li><a href="#skills" class="nav__list__item">Skills</a></li>
+                            <li><a href="#portfolio" class="nav__list__item">Portfolio</a></li>
+                            <li><a href="#contact" class="nav__list__item">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__box">
+                    <a href="#home" class="btn__logo__mobile">
+                        <!--<svg version="1.2" id="test" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg"-->
+                             <!--xmlns:xlink="http://www.w3.org/1999/xlink"-->
+	 <!--x="0px" y="0px" width="127px" height="132px" viewBox="0 0 127 132" overflow="scroll" xml:space="preserve">4-->
+                            <!--<g>-->
+<!--<path fill-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10" d="M95.184,15.471-->
+	<!--c36.825,19.951,29.121,13.88,31.24,50.774c0,39.901,1.75,30.609-31.24,50.774c-36.828,19.951-27.372,16.726-62.481,0-->
+	<!--C-4.125,97.07,3.58,103.139,1.462,66.245c0-39.901-1.752-30.607,31.24-50.774C69.529-4.479,60.076-1.254,95.184,15.471-->
+	 <!--M66.488,53.715v33.714c0,1.438,0.401,2.379,1.207,2.824c0.807,0.446,1.969,0.669,3.486,0.669c1.566,0,2.752-0.223,3.559-0.669-->
+	<!--c0.807-0.445,1.211-1.386,1.211-2.824V68.4l38.777,21.482c0.665,0.397,1.391,0.668,2.171,0.816c0.782,0.149,0.378,0.327,1.991,0.327-->
+	<!--c1.044,0,1.949-0.289,2.704-0.855c0.759-0.569,1.139-1.425,1.139-2.565c0-1.484-0.781-2.589-2.276-3.419L82.779,63.271-->
+	<!--l37.996-19.997c1.52-0.792,2.279-1.93,2.279-3.417c0-1.141-0.381-1.996-1.139-2.565c-0.76-0.569-1.66-0.856-2.704-0.856-->
+	<!--c-1.613,0-2.81,0.076-3.594,0.224s-1.505,0.42-2.171,0.816L75.951,58.588V39.931c0-1.437-0.404-2.379-1.211-2.825-->
+	<!--c-0.807-0.445-1.992-0.669-3.559-0.669c-1.518,0-2.933-0.067-3.486,0.669c-0.495,0.658-0.743,1.173-1.16,2.028L40.972,80.56-->
+	<!--L15.591,39.071c-1.102-1.747-2.557-2.618-4.359-2.618c-2.686,0-4.026,1.696-4.026,5.084v45.75c0,1.448,0.311,2.396,0.938,2.844-->
+	<!--c0.625,0.447,1.527,0.672,2.706,0.672c1.211,0,2.131-0.225,2.755-0.672c0.626-0.447,0.94-1.396,0.94-2.844V51.854l22.068,36.107-->
+	<!--c0.59,0.998,1.241,1.723,1.958,2.17c0.719,0.447,1.613,0.672,2.679,0.672c0.957,0,1.765-0.225,2.428-0.672s1.304-1.172,1.931-2.17-->
+	<!--L66.488,53.715z"/>-->
+<!--<path fill-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10" d="M78.636,125.919-->
+	<!--c-18.296,9.347-17.467,4.663-45.934-8.899C-4.125,97.07,3.58,103.139,1.462,66.246c0-25.234-0.697-30.794,7.133-36.569-->
+	<!--c18.294-9.346,17.468-4.662,45.934,8.899c3.468,1.879,6.822,3.808,9.547,5.282L41.253,80.843L15.873,39.351-->
+	<!--c-1.102-1.744-2.557-2.617-4.359-2.617c-2.686,0-4.307,1.414-4.307,4.803l0.281,46.032c0,1.445,0.029,2.111,0.656,2.562-->
+	<!--c0.625,0.447,1.527,0.672,2.706,0.672c1.211,0,2.131-0.225,2.755-0.672c0.626-0.45,0.94-1.397,0.94-2.843V51.853l22.068,36.109-->
+	<!--c0.59,0.997,1.241,1.719,1.958,2.169c0.719,0.447,1.613,0.672,2.679,0.672c0.957,0,1.765-0.225,2.428-0.672-->
+	<!--c0.663-0.45,1.304-1.172,1.931-2.169L66.77,53.997L66.488,87.43c0,1.438,0.401,2.379,1.207,2.825-->
+	<!--c0.807,0.444,1.969,0.667,3.486,0.667c1.566,0,2.752-0.223,3.559-0.667c0.807-0.446,1.211-1.388,1.211-2.825V68.4l9.316,5.162-->
+	<!--c0.063,4.193,0.131,9.331,0.502,15.787C85.77,114.585,86.465,120.144,78.636,125.919 M75.951,50.576v8.012l5.709-3.215-->
+	<!--C80.332,53.772,78.496,52.258,75.951,50.576 M84.654,62.285l-1.875,0.987l2.158,1.197C84.863,63.697,84.771,62.971,84.654,62.285"/>-->
+<!--</g>-->
+                        <!--</svg>-->
+
+                        <img src="assets/images/6_Contact/log.png" class="logo__mobile" alt="">
+                    </a>
+                    <a href="#home" class="btn__logo__desktop"><img src="assets/images/1_Home/logo.png" class="logo__desktop" alt=""></a>
+                </div>
             </header>
             <div class="social__home">
                 <ul class="social__bar">
@@ -39,9 +76,10 @@
                     <li><a href=""><i class="fa fa-instagram fa-2x social__bar__item" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
-        </section>
+
+        </div>
     </div>
-</div>
+</section>
 
 <section class="about" id="about">
     <h2>About me</h2>
@@ -184,11 +222,11 @@
             </li>
             <li class="port_list box4">
                 <div class="port__item">
-                    <h3>work in progress</h3>
+                    <h3>luxclean.dk</h3>
                     <ul>
                         <li>...</li>
                         <li><img src="assets/images/5_Portfolio/point_sm.png"></li>
-                        <li><a href="">{...}</a></li>
+                        <li><a href="http://mkurpiewski.com/lux-clean/">{see more}</a></li>
                     </ul>
                 </div>
             </li>
@@ -269,7 +307,6 @@
             </dl>
         </div>
     </div>
-
 </section>
 <footer>
     <p>© 2017 All rights reserved</p>
@@ -279,7 +316,15 @@
         src="https://code.jquery.com/jquery-3.1.1.min.js"
         integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
         crossorigin="anonymous"></script>
-<script src="assets/main-script.js"></script>
-</body>
 
+<script src="http://cdn.jsdelivr.net/walkway/0.0.7/walkway.min.js"></script>
+<script src="assets/main-script.js"></script>
+<script>
+
+
+</script>
+</body>
 </html>
+
+
+

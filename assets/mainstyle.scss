@@ -3,6 +3,7 @@
 $blue: #0d48de;
 $grey: #c5c5c5;
 $grey-dark: #919191;
+$white:#fff;
 $font-size: 18px;
 $font-h2: 100px;
 $section-width: max(1200px);
@@ -25,6 +26,7 @@ $section-width: max(1200px);
     position: relative;
     //text-align: right;
     margin-right: 10px;
+
   }
 }
 
@@ -35,32 +37,32 @@ $section-width: max(1200px);
 
 body {
   font-family: 'Ubuntu', sans-serif;
-  color: #fff;
+  color: $white;
   background-color: #050515;
   width: 100%;
 
 }
 
+
 .bg1 {
-  background: url("images/1_Home/bg.jpg") no-repeat;
-  background-position: center;
-  background-size: cover;
+  background: url("images/1_Home/sphere_big .png") no-repeat;
+  background-position: 50% 50%;
+  background-size: max(360px);
   height: 100vh;
-  width: 100%;
   .bg2 {
-    background: url("images/1_Home/sphere_big .png") no-repeat;
+    background: url("images/1_Home/sphere_small.png") no-repeat;
     background-position: 50% 50%;
-    background-size: max(360px);
+    background-size: max(260px);
     height: 100vh;
   }
 }
 
 .home {
-  background: url("images/1_Home/sphere_small.png") no-repeat;
-  background-position: 50% 50%;
-  background-size: max(260px);
+
+  background: url("images/1_Home/bg.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
   height: 100vh;
-  width: 100%;
 
   h1 {
     background-color: #030416;
@@ -78,7 +80,7 @@ body {
 
     &::after {
       content: "";
-      background-color: #fff;
+      background-color: $white;
       background: url("images/1_Home/scroll_1and2.png") no-repeat;
       background-size: cover;
       width: 12px;
@@ -96,11 +98,11 @@ body {
       top: calc(50% - 29px);
       left: 35px;
       .span_2 {
-        border-top: 1px solid #fff;
+        border-top: 1px solid $white;
         padding-top: 3px;
       }
       .span_3 {
-        border-bottom: 1px solid #fff;
+        border-bottom: 1px solid $white;
         padding-bottom: 5px;
       }
     }
@@ -111,63 +113,71 @@ body {
 
 }
 
-header {
+header{
   background-color: #030416;
   opacity: 0.7;
-  position: relative;
-  z-index: 10;
-  text-align: center;
-  display: flex;
-  justify-content: space-around;
-  //align-items: flex-start;
-  align-content: center;
-  .nav__close {
-    visibility: hidden;
-    display: none;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 
-  }
 
-  .nav_show {
-    visibility: visible;
-    transition: visibility 2ms;
-  }
-
-  .nav__list__item > a {
-    color: #fff;
-    font-weight: 600;
-    letter-spacing: -1px;
-    line-height: 1.75;
-    cursor: pointer;
+  .header__box {
+    display: inline-block;
+    float: left;
+    width: 20%;
     text-align: center;
+    padding: 5% 0;
 
-    &:hover {
-      color: $blue;
-      font-weight: 700;
-    }
   }
-
+  .header__box_2{
+  width: 60%;
+  }
+  .nav{
+    width: 100%;
+    display: none;
+      .nav__list__item{
+        color: $white;
+        font-weight: 600;
+        letter-spacing: -1px;
+        line-height: 1.75;
+        cursor: pointer;
+        &:hover {
+          color: $blue;
+          font-weight: 700;
+        }
+      }
+    }
   .btn__logo__mobile {
-
     .logo__mobile {
       max-width: 41.14px;
-      margin-top: 5px;
-
     }
   }
-
   .btn__logo__desktop {
-    visibility: hidden;
     display: none;
-    margin: 0;
-    position: absolute;
-    top: 72px;
-    left: 50%;
-    transform: translate(-50%, -50%)
   }
+}
+.burger__btn {
+  height: 50px;
+  cursor: pointer;
 }
 
 .fa {
-  color: #fff;
+  color: $white;
+}
+#test{
+  color:#fff;
+  //background-color: $blue;
+
+}
+svg {
+  path, line, polyline {
+    stroke: #fff;
+    stroke-width: 3px;
+  }
+
+  path {
+    fill: transparent;
+  }
 }
 
 .social__home {
@@ -328,11 +338,11 @@ header {
     }
     .skills__title {
       font-size: $font-size + 2;
-      color: #fff;
+      color: $white;
       font-weight: bold;
       margin: 5% 0;
       span {
-        border-bottom: 2px solid #fff;
+        border-bottom: 2px solid $white;
         padding-bottom: 5px;
       }
       img {
@@ -401,7 +411,7 @@ header {
         }
         a {
           text-decoration: none;
-          color: #fff;
+          color: $white;
         }
       }
 
@@ -445,7 +455,7 @@ header {
 
     }
 
-    .box4, .box5, .box6, .box7, .box8 {
+    .box5, .box6, .box7, .box8 {
       display: none;
 
     }
@@ -467,6 +477,7 @@ header {
   background-size: 200%;
   background-position: bottom left;
 
+
   h2 {
     @include h2-title;
     &::before {
@@ -486,7 +497,7 @@ header {
           color: #081f62;
           cursor: pointer;
           &:hover {
-            color: #fff;
+            color: $white;
           }
         }
       }
@@ -515,7 +526,7 @@ header {
       }
       .contact__span {
         display: block;
-        color: #fff;
+        color: $white;
         font-size: $font-size + 8;
         line-height: 3;
       }
@@ -536,7 +547,7 @@ header {
           text-align: right;
           a {
             text-decoration: none;
-            color: #fff;
+            color: $white;
             i {
               padding-right: 2%;
               color: $blue;
@@ -548,7 +559,7 @@ header {
     .contact__item:last-child {
       text-align: left;
     }
-    .contact__item::after{
+    .contact__item::after {
       content: '';
       clear: both;
       display: block;
@@ -563,3 +574,9 @@ footer {
   line-height: 50px;
   font-size: $font-size - 4;
 }
+
+@media screen and (min-width: 768px) {
+  section{
+    display: none;
+    visibility: hidden;
+  }  }
