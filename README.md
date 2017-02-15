@@ -3,7 +3,7 @@
 # https://marcin-kurpiewski.github.io/mkurpiewski.com-2.0/
 # Html5, CSS3, Sass(Scss), js, jQ.
 # Mobile first. 
-# 1. Phone version. 
+# 1. Phone version. // 99%
 # 2. Tablet horizontal an landspace. 
 # 3. Laptop.
 # 4. Desptop. 
