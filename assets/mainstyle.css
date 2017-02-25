@@ -451,7 +451,7 @@ footer {
     color: #c5c5c5;
     font-size: 36px; }
   .temp .img_info {
-    maxwidth: 20%;
+    max-width: 20%;
     padding-top: 10%; }
 
 @media screen and (min-width: 768px) {
