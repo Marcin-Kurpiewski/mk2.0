@@ -442,9 +442,28 @@ footer {
   line-height: 50px;
   font-size: 14px; }
 
+.temp {
+  display: none;
+  visibility: hidden;
+  text-align: center;
+  padding-top: 10%; }
+  .temp .info {
+    color: #c5c5c5;
+    font-size: 36px; }
+  .temp .img_info {
+    maxwidth: 20%;
+    padding-top: 10%; }
+
 @media screen and (min-width: 768px) {
   section {
     display: none;
-    visibility: hidden; } }
+    visibility: hidden; }
+
+  footer {
+    display: none; }
+
+  .temp {
+    display: block;
+    visibility: visible; } }
 
 /*# sourceMappingURL=mainstyle.css.map */
