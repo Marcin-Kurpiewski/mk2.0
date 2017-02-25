@@ -4,6 +4,6 @@
 # Html5, CSS3, Sass(Scss), js, jQ.
 # Mobile first. 
 # 1. Phone version. // 99%
-# 2. Tablet horizontal an landspace. 
+# 2. Tablet horizontal and landspace. 
 # 3. Laptop.
-# 4. Desptop. 
+# 4. Desktop. 
