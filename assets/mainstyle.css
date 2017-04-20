@@ -68,27 +68,32 @@ header {
   opacity: 0.7;
   position: fixed;
   width: 100%;
-  z-index: 100; }
-  header .header__box {
-    display: inline-block;
-    float: left;
-    width: 20%;
+  z-index: 100;
+  display: flex;
+  justify-content: space-around; }
+  header div[class*='header__box'] {
     text-align: center;
     padding: 5% 0; }
-  header .header__box_2 {
-    width: 60%; }
+  header .header__box2 {
+    background-color: red; }
   header .nav {
-    width: 100%;
-    display: none; }
-    header .nav .nav__list__item {
-      color: #fff;
-      font-weight: 600;
-      letter-spacing: -1px;
-      line-height: 1.75;
-      cursor: pointer; }
-      header .nav .nav__list__item:hover {
-        color: #0d48de;
-        font-weight: 700; }
+    display: none;
+    height: 0;
+    transition: height 50s; }
+  header .nav__item {
+    display: none;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 1.75;
+    cursor: pointer; }
+    header .nav__item:hover {
+      color: #0d48de;
+      font-weight: 700; }
+  header .nav-active {
+    display: block;
+    height: 100%; }
   header .btn__logo__mobile .logo__mobile {
     max-width: 41.14px; }
   header .btn__logo__desktop {
@@ -304,25 +309,33 @@ svg path {
     text-align: center; }
     .portfolio .portfolio__box .port_list {
       background: url("images/5_Portfolio/port_icon.png") no-repeat;
-      background-size: 50%;
+      background-size: 150%;
       background-position: center;
-      width: 100%;
-      max-width: 391px;
-      height: 50%;
-      max-height: 391px;
-      margin: 0 auto; }
-      .portfolio .portfolio__box .port_list:hover {
-        background-color: #d42f3e; }
+      width: 235px;
+      height: 225px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start; }
       .portfolio .portfolio__box .port_list h3 {
         font-size: 23px;
-        line-height: 100px; }
-      .portfolio .portfolio__box .port_list li {
-        line-height: 28px; }
-        .portfolio .portfolio__box .port_list li img {
-          margin-top: 4%; }
-        .portfolio .portfolio__box .port_list li a {
-          text-decoration: none;
-          color: #fff; }
+        transition: transform 0.75s;
+        flex: 1; }
+        .portfolio .portfolio__box .port_list h3:hover {
+          transform: translateY(100%); }
+      .portfolio .portfolio__box .port_list ul {
+        display: flex;
+        flex-direction: column;
+        flex: 2; }
+        .portfolio .portfolio__box .port_list ul li {
+          flex: 1;
+          line-height: 28px;
+          transition: tra 0.75s; }
+          .portfolio .portfolio__box .port_list ul li:hover {
+            left: 10px; }
+          .portfolio .portfolio__box .port_list ul li a {
+            text-decoration: none;
+            color: #fff; }
     .portfolio .portfolio__box .box1 {
       background: url("images/5_Portfolio/box_1.jpg") no-repeat;
       background-size: cover; }
@@ -349,13 +362,6 @@ svg path {
       background-size: cover; }
     .portfolio .portfolio__box .box5, .portfolio .portfolio__box .box6, .portfolio .portfolio__box .box7, .portfolio .portfolio__box .box8 {
       display: none; }
-    .portfolio .portfolio__box .port__item {
-      background-color: #050515;
-      opacity: 0.8;
-      width: 100%; }
-    .portfolio .portfolio__box .port_list:hover {
-      background-color: #d42f3e;
-      opacity: 0.8; }
 
 .contact {
   background: url("images/6_Contact/bg.jpg") no-repeat;
