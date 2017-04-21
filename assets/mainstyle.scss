@@ -126,17 +126,28 @@ header{
   div[class*='header__box'] {
     text-align: center;
     padding: 5% 0;
+    width:20%;
   }
+
   .header__box2{
-    background-color: red;
+    width:60%;
   }
-  .nav{
+  .close-nav{
     display: none;
-    height: 0;
-    transition: height 50s;
+    height: 0px;
+    opacity: 0;
+    width: 100%;
+
   }
-      .nav__item{
-        display: none;
+  .open-nav{
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: opacity 2s linear 2s;
+
+  }
+      .nav-item{
+        height: 100%;
         text-decoration: none;
         color: $white;
         font-weight: 600;
@@ -149,10 +160,7 @@ header{
         }
       }
 
-  .nav-active{
-    display: block;
-    height: 100%;
-  }
+
   .btn__logo__mobile {
     .logo__mobile {
       max-width: 41.14px;

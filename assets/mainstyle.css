@@ -73,27 +73,31 @@ header {
   justify-content: space-around; }
   header div[class*='header__box'] {
     text-align: center;
-    padding: 5% 0; }
+    padding: 5% 0;
+    width: 20%; }
   header .header__box2 {
-    background-color: red; }
-  header .nav {
+    width: 60%; }
+  header .close-nav {
     display: none;
-    height: 0;
-    transition: height 50s; }
-  header .nav__item {
-    display: none;
+    height: 0px;
+    opacity: 0;
+    width: 100%; }
+  header .open-nav {
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: opacity 2s linear 2s; }
+  header .nav-item {
+    height: 100%;
     text-decoration: none;
     color: #fff;
     font-weight: 600;
     letter-spacing: -1px;
     line-height: 1.75;
     cursor: pointer; }
-    header .nav__item:hover {
+    header .nav-item:hover {
       color: #0d48de;
       font-weight: 700; }
-  header .nav-active {
-    display: block;
-    height: 100%; }
   header .btn__logo__mobile .logo__mobile {
     max-width: 41.14px; }
   header .btn__logo__desktop {

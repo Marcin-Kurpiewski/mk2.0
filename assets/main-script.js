@@ -1,6 +1,3 @@
-/**
- * Created by HP-M on 02.02.2017.
- */
 
 // $(window).on("load", function(){
 //     $(".preloader").fadeOut(500);
@@ -8,8 +5,17 @@
 //
 //
 $(document).ready(function () {
+
     $(".burger__btn").click(function () {
-        $("[class*='nav']").toggleClass("nav-active");
+        event.preventDefault();
+        if($("nav").hasClass('close-nav')){
+            $("nav").removeClass("close-nav");
+            $("nav").addClass("open-nav");
+        }
+        else{
+            $("nav").removeClass("open-nav");
+            $("nav").addClass("close-nav");
+        }
     });
 
 });
