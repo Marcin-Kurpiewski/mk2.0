@@ -1,6 +1,8 @@
 @import 'reset.css';
+@import 'hover/hover.css';
 
 $blue: #0d48de;
+$blue-dark:#050515;
 $grey: #c5c5c5;
 $grey-dark: #919191;
 $white:#fff;
@@ -38,7 +40,7 @@ $section-width: max(1200px);
 body {
   font-family: 'Ubuntu', sans-serif;
   color: $white;
-  background-color: #050515;
+  background-color: $blue-dark;
   width: 100%;
 
 }
@@ -400,86 +402,72 @@ svg {
 
     .port_list {
       background: url("images/5_Portfolio/port_icon.png") no-repeat;
-      background-size: 150%;
       background-position: center;
-      width: 235px;
-      height: 225px;
-      //margin: 0 auto;
-      overflow: hidden;
-
-      display: flex;
-      flex-direction: column;
-      //justify-content: center;
-      align-items: flex-start;
-      //&:hover {
-      //  background-color: #d42f3e;
-      //
-      //}
-
-      h3 {
-        font-size: $font-size +5;
-        //line-height: 100px;
-        //transform: translateY(-100%);
-        transition: transform 0.75s;
-        flex: 1;
-        &:hover {
-          transform: translateY(100%);
-        }
-      }
-      ul {
+      background-size: cover;
+      width: 90%;
+      //height: 225px;
+      .port__item{
         display: flex;
         flex-direction: column;
-        //justify-content: center;
         //align-items: center;
-        flex: 2;
+        width: 100%;
+      }
+      h3 {
+        font-size: $font-size +5;
+        line-height: 5;
+      }
+      ul {
+      display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 225px;
+        justify-content: center;
         li {
-          flex: 1;
           line-height: $font-size + 10;
-          transition: tra 0.75s;
-          &:hover {
-
-            left:10px;
-          }
-          img {
-            //margin-top: 4%;
-          }
           a {
             text-decoration: none;
             color: $white;
           }
           }
-        li{
+        li:nth-child(2n){
+          background: url("images/5_Portfolio/point_sm.png") no-repeat;
+          background-size: cover;
+          width: 22px;
+          height: 22px;
+          margin: 5% 0;
 
+        }
         }
       }
 
-    }
+
+
     .box1 {
-      background: url("images/5_Portfolio/box_1.jpg") no-repeat;
+      background: url("images/5_Portfolio/github-code.jpg") no-repeat;
       background-size: cover;
 
     }
     .box2 {
-      background: url("images/5_Portfolio/box_2.jpg") no-repeat;
+      background: url("images/5_Portfolio/landing-page-event.jpg") no-repeat;
       background-size: cover;
 
     }
     .box3 {
-      background: url("images/5_Portfolio/box_3.jpg") no-repeat;
+      background: url("images/5_Portfolio/event-app.jpg") no-repeat;
       background-size: cover;
     }
     .box4 {
-      background: url("images/5_Portfolio/box_8.jpg") no-repeat;
+      background: url("images/5_Portfolio/lux-clean.png") no-repeat;
       background-size: cover;
 
     }
     .box5 {
-      background: url("images/5_Portfolio/box_5.jpg") no-repeat;
+      background: url("images/5_Portfolio/casino-game.png") no-repeat;
       background-size: cover;
 
     }
     .box6 {
-      background: url("images/5_Portfolio/box_8.jpg") no-repeat;
+      background: url("images/5_Portfolio/maxstudio-wp.jpg") no-repeat;
       background-size: cover;
     }
     .box7 {
@@ -493,21 +481,12 @@ svg {
 
     }
 
-    .box5, .box6, .box7, .box8 {
+    .box7, .box8 {
       display: none;
 
     }
-    //.port__item {
-    //  background-color: #050515;
-    //  opacity: 0.8;
-    //  width: 100%;
-    //}
-    //.port_list:hover {
-    //  background-color: #d42f3e;
-    //  opacity: 0.8;
-    //}
-
   }
+
 }
 
 .contact {
@@ -645,3 +624,6 @@ footer{
 }
 
 }
+
+
+
