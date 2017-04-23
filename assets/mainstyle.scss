@@ -157,8 +157,8 @@ header{
         line-height: 1.75;
         cursor: pointer;
         &:hover {
-          color: $blue;
-          font-weight: 700;
+          color:$blue;
+          font-weight: 800;
         }
       }
 
@@ -401,17 +401,18 @@ svg {
 
 
     .port_list {
-      background: url("images/5_Portfolio/port_icon.png") no-repeat;
-      background-position: center;
-      background-size: cover;
+      //background: url("images/5_Portfolio/port_icon.png") no-repeat;
+      //background-position: center;
+      //background-size: cover;
       width: 90%;
       //height: 225px;
       .port__item{
         display: flex;
         flex-direction: column;
         //align-items: center;
-        width: 100%;
+
       }
+
       h3 {
         font-size: $font-size +5;
         line-height: 5;
@@ -427,6 +428,8 @@ svg {
           a {
             text-decoration: none;
             color: $white;
+            font-size: $font-size;
+            letter-spacing: 2px;
           }
           }
         li:nth-child(2n){
@@ -435,9 +438,13 @@ svg {
           width: 22px;
           height: 22px;
           margin: 5% 0;
-
         }
         }
+      .port__item > *{
+        background-color: #000;
+        margin:5%;
+        opacity: 0.7;
+      }
       }
 
 
