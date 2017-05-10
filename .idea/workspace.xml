@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abe560b3-0ee7-47a0-8104-3422f7496b1a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Marcin Kurpiewski CV.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/hover/hover.css" afterPath="$PROJECT_DIR$/assets/hover/hover.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/mainstyle.css" afterPath="$PROJECT_DIR$/assets/mainstyle.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/mainstyle.css.map" afterPath="$PROJECT_DIR$/assets/mainstyle.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/mainstyle.scss" afterPath="$PROJECT_DIR$/assets/mainstyle.scss" />
@@ -24,14 +24,14 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.30636463">
+    <splitter split-orientation="horizontal" split-proportion="0.4312394">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="90" column="52" lean-forward="false" selection-start-line="90" selection-start-column="52" selection-end-line="90" selection-end-column="52" />
+                <state relative-caret-position="737">
+                  <caret line="298" column="135" lean-forward="false" selection-start-line="298" selection-start-column="135" selection-end-line="298" selection-end-column="135" />
                   <folding />
                 </state>
               </provider>
@@ -40,29 +40,47 @@
         </leaf>
       </split-first>
       <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.4976672">
+        <splitter split-orientation="horizontal" split-proportion="0.20219123">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="main-script.js" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/assets/main-script.js">
+              <file leaf-file-name="mainstyle.scss" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/assets/mainstyle.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="374">
-                      <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+                    <state relative-caret-position="3377">
+                      <caret line="648" column="3" lean-forward="false" selection-start-line="648" selection-start-column="3" selection-end-line="648" selection-end-column="3" />
                       <folding />
                     </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="casino-game.jpg" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/assets/images/5_Portfolio/casino-game.jpg">
+                  <provider selected="true" editor-type-id="images">
+                    <state />
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="casino-game.png" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/assets/images/5_Portfolio/casino-game.png">
+                  <provider selected="true" editor-type-id="images">
+                    <state />
                   </provider>
                 </entry>
               </file>
             </leaf>
           </split-first>
           <split-second>
-            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+            <leaf>
               <file leaf-file-name="mainstyle.scss" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/assets/mainstyle.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="611">
-                      <caret line="618" column="34" lean-forward="false" selection-start-line="618" selection-start-column="34" selection-end-line="618" selection-end-column="34" />
-                      <folding />
+                    <state relative-caret-position="776">
+                      <caret line="608" column="37" lean-forward="false" selection-start-line="608" selection-start-column="36" selection-end-line="608" selection-end-column="37" />
+                      <folding>
+                        <element signature="e#10928#11446#0" expanded="false" />
+                        <element signature="e#11457#11513#0" expanded="false" />
+                        <element signature="e#11527#13916#0" expanded="false" />
+                      </folding>
                     </state>
                   </provider>
                 </entry>
@@ -108,8 +126,8 @@
         <option value="$PROJECT_DIR$/mainstyle.scss" />
         <option value="$PROJECT_DIR$/assets/reset.css" />
         <option value="$PROJECT_DIR$/assets/mainstyle.css" />
-        <option value="$PROJECT_DIR$/assets/hover/hover.css" />
         <option value="$PROJECT_DIR$/assets/main-script.js" />
+        <option value="$PROJECT_DIR$/assets/hover/hover.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/mainstyle.scss" />
       </list>
@@ -125,10 +143,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="72" />
-    <option name="y" value="70" />
-    <option name="width" value="2161" />
-    <option name="height" value="1203" />
+    <option name="x" value="745" />
+    <option name="width" value="1805" />
+    <option name="height" value="1419" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -170,6 +187,64 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mk2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mk2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mk2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mk2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="5_Portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mk2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mk2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hover" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -313,7 +388,7 @@
       <workItem from="1493029874055" duration="70000" />
       <workItem from="1493029957953" duration="617000" />
       <workItem from="1493369777463" duration="603000" />
-      <workItem from="1494415864067" duration="1269000" />
+      <workItem from="1494415864067" duration="13088000" />
     </task>
     <task id="LOCAL-00001" summary="hom section ready, missing logo">
       <created>1485300638581</created>
@@ -427,11 +502,18 @@
       <option name="project" value="LOCAL" />
       <updated>1492954716619</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="ad cv , refactor ,">
+      <created>1494417154843</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1494417154844</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224624000" />
+    <option name="totallyTimeSpent" value="236443000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -443,18 +525,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="72" y="70" width="2161" height="1203" extended-state="0" />
+    <frame x="745" y="0" width="1805" height="1419" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1267075" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.105988964" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969603" sideWeight="0.50157607" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.335152" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07921715" sideWeight="0.49842396" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07835531" sideWeight="0.49842396" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21745908" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0046598325" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.003888025" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -503,19 +585,14 @@
     <MESSAGE value="add worpress/" />
     <MESSAGE value="hoover details" />
     <MESSAGE value="portfolio hoover details" />
-    <option name="LAST_COMMIT_MESSAGE" value="portfolio hoover details" />
+    <MESSAGE value="ad cv , refactor ," />
+    <option name="LAST_COMMIT_MESSAGE" value="ad cv , refactor ," />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/style.scss" />
-    <entry file="file://$PROJECT_DIR$/assets/images/1_Home/sphere_big .png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/style.css" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -709,10 +786,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/hover/hover.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-128">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1462">
+          <caret line="4349" column="0" lean-forward="false" selection-start-line="4349" selection-start-column="0" selection-end-line="4349" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/5_Portfolio/casino-game.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/5_Portfolio/casino-game.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/main-script.js">
@@ -725,17 +812,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="90" column="52" lean-forward="false" selection-start-line="90" selection-start-column="52" selection-end-line="90" selection-end-column="52" />
+        <state relative-caret-position="737">
+          <caret line="298" column="135" lean-forward="false" selection-start-line="298" selection-start-column="135" selection-end-line="298" selection-end-column="135" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/mainstyle.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="618" column="34" lean-forward="false" selection-start-line="618" selection-start-column="34" selection-end-line="618" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="776">
+          <caret line="608" column="37" lean-forward="false" selection-start-line="608" selection-start-column="36" selection-end-line="608" selection-end-column="37" />
+          <folding>
+            <element signature="e#10928#11446#0" expanded="false" />
+            <element signature="e#11457#11513#0" expanded="false" />
+            <element signature="e#11527#13916#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
