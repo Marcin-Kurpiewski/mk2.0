@@ -98,7 +98,7 @@ header {
     cursor: pointer; }
     header .nav-item:hover {
       color: #0d48de;
-      font-weight: 700; }
+      font-weight: 800; }
   header .btn__logo__mobile .logo__mobile {
     max-width: 41.14px; }
   header .btn__logo__desktop {
@@ -313,14 +313,10 @@ svg path {
     margin: 5% auto;
     text-align: center; }
     .portfolio .portfolio__box .port_list {
-      background: url("images/5_Portfolio/port_icon.png") no-repeat;
-      background-position: center;
-      background-size: cover;
       width: 90%; }
       .portfolio .portfolio__box .port_list .port__item {
         display: flex;
-        flex-direction: column;
-        width: 100%; }
+        flex-direction: column; }
       .portfolio .portfolio__box .port_list h3 {
         font-size: 23px;
         line-height: 5; }
@@ -334,13 +330,19 @@ svg path {
           line-height: 28px; }
           .portfolio .portfolio__box .port_list ul li a {
             text-decoration: none;
-            color: #fff; }
+            color: #fff;
+            font-size: 18px;
+            letter-spacing: 2px; }
         .portfolio .portfolio__box .port_list ul li:nth-child(2n) {
           background: url("images/5_Portfolio/point_sm.png") no-repeat;
           background-size: cover;
           width: 22px;
           height: 22px;
           margin: 5% 0; }
+      .portfolio .portfolio__box .port_list .port__item > * {
+        background-color: #000;
+        margin: 5%;
+        opacity: 0.7; }
     .portfolio .portfolio__box .box1 {
       background: url("images/5_Portfolio/github-code.jpg") no-repeat;
       background-size: cover; }
@@ -465,7 +467,7 @@ footer {
     max-width: 20%;
     padding-top: 10%; }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   section {
     display: none;
     visibility: hidden; }
