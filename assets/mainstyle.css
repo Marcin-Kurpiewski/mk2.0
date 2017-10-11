@@ -101,8 +101,6 @@ header {
       font-weight: 800; }
   header .btn__logo__mobile .logo__mobile {
     max-width: 41.14px; }
-  header .btn__logo__desktop {
-    display: none; }
 
 .burger__btn {
   height: 50px;
@@ -216,15 +214,15 @@ svg path {
     background-size: 70%;
     padding-bottom: 1%; }
     .education .education-bg .edu__box {
-      margin: 10% 5%; }
+      margin: 10% 10%;
+      display: flex;
+      flex-direction: row; }
       .education .education-bg .edu__box .edu_img {
-        display: inline-block;
-        width: 25%; }
+        width: 20%; }
         .education .education-bg .edu__box .edu_img img {
           max-width: 45%; }
       .education .education-bg .edu__box .edu__txt {
-        display: inline-block;
-        width: 72%; }
+        width: 80%; }
         .education .education-bg .edu__box .edu__txt h3, .education .education-bg .edu__box .edu__txt p {
           font-size: 18px;
           line-height: 1.5;
@@ -453,7 +451,6 @@ footer {
 
 .temp {
   display: none;
-  visibility: hidden;
   text-align: center;
   padding-top: 10%; }
   .temp .info {
@@ -463,7 +460,7 @@ footer {
     max-width: 20%;
     padding-top: 10%; }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media screen and (min-width: 768px) and (orientation: landscape) {
   .about .about-bg {
     flex-direction: row;
     justify-content: center;
@@ -484,6 +481,9 @@ footer {
       max-width: 50%;
       align-self: center;
       margin-right: 5%; }
+
+  .education .education-bg .edu__box {
+    margin: 15% 15%; }
 
   .skills .skills_container {
     display: flex; }
@@ -558,8 +558,48 @@ footer {
   .contact .contact__item {
     width: 80%; } }
 @media screen and (min-width: 1024px) {
+  .social__home {
+    display: block;
+    top: 50%; }
+
+  .education .education-bg .edu__box {
+    margin: 10% 10%; }
+    .education .education-bg .edu__box .edu__txt h3, .education .education-bg .edu__box .edu__txt p {
+      font-size: 30px; }
+
+  header {
+    justify-content: space-between; }
+    header div[class*='header__box'] {
+      padding: 2% 0; }
+    header .header__box1, header .header__box3 {
+      flex-shrink: 3; }
+    header .header__box2 {
+      flex-shrink: 1;
+      flex-grow: 5; }
+    header nav ul {
+      height: 100%;
+      display: flex;
+      justify-content: space-around; }
+
+  h2 {
+    font-size: 90px;
+    font-weight: 600;
+    color: #c5c5c5;
+    letter-spacing: -1px;
+    text-align: right; }
+    h2 :before {
+      content: "01";
+      color: #0d48de;
+      font-weight: bold;
+      display: block;
+      position: relative;
+      font-size: 100px; } }
+@media screen and (min-width: 1280px) {
+  section {
+    display: none; }
+
   .temp {
-    display: none;
-    visibility: hidden; } }
+    display: block;
+    visibility: visible; } }
 
 /*# sourceMappingURL=mainstyle.css.map */
