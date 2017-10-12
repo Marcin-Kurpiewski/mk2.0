@@ -1,4 +1,3 @@
-
 // $(window).on("load", function(){
 //     $(".preloader").fadeOut(500);
 // });
@@ -8,16 +7,22 @@ $(document).ready(function () {
 
     $(".burger__btn").click(function () {
         event.preventDefault();
-        if($("nav").hasClass('close-nav')){
+        if ($("nav").hasClass('close-nav')) {
             $("nav").removeClass("close-nav");
             $("nav").addClass("open-nav");
         }
-        else{
+        else {
             $("nav").removeClass("open-nav");
             $("nav").addClass("close-nav");
         }
     });
 
+    $('.nav-item').click(
+        function(event){
+            event.preventDefault();
+            $('html, body').animate({
+                scrollTop: $($.attr(this, 'href')).offset().top -90
+            }, 800)});
 });
 
 
@@ -29,4 +34,5 @@ $(document).ready(function () {
 //         return t * t;
 //     }
 // });
+
 

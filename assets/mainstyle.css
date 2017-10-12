@@ -595,11 +595,19 @@ footer {
       position: relative;
       font-size: 100px; } }
 @media screen and (min-width: 1280px) {
-  section {
-    display: none; }
+  .main-photo {
+    max-width: 35%; }
 
-  .temp {
-    display: block;
-    visibility: visible; } }
+  .download__btn {
+    display: block; }
+    .download__btn img {
+      width: 70px;
+      margin: 5% auto; }
+
+  .about__list {
+    order: 2;
+    max-width: 40%;
+    align-self: center;
+    margin-right: 5%; } }
 
 /*# sourceMappingURL=mainstyle.css.map */
