@@ -605,40 +605,40 @@ footer {
 
 @media screen and (min-width: 768px) and (orientation: landscape) {
   .about {
-    .about-bg {
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
+      .about-bg {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
 
-      .about-img {
-        order: 1;
-        margin-top: 0;
+        .about-img {
+          order: 1;
+          margin-top: 0;
 
-        .main-photo {
-          max-width: 65%;
+          .main-photo {
+            max-width: 65%;
+
+          }
+        }
+        .download__btn {
+
+          display: block;
+
+          img {
+            width: 80px;
+            margin: 5% auto;
+          }
 
         }
-      }
-      .download__btn {
+        .about__list {
+          order: 2;
+          max-width: 50%;
+          align-self: center;
+          margin-right: 5%;
 
-        display: block;
-
-        img {
-          width: 80px;
-          margin: 5% auto;
         }
-
-      }
-      .about__list {
-        order: 2;
-        max-width: 50%;
-        align-self: center;
-        margin-right: 5%;
-
       }
     }
-  }
   .education {
     .education-bg {
       .edu__box {
@@ -833,6 +833,10 @@ footer {
 
       }
 
+
+}
+
+@media screen and (min-width: 1280px) {
   //.temp {
   //  display: block;
   //  visibility:visible;
