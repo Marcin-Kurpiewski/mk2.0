@@ -836,11 +836,17 @@ footer {
 
 }
 
-@media screen and (min-width: 1280px) {
-  //.temp {
-  //  display: block;
-  //  visibility:visible;
-  //   }
+@media screen and (min-width: 1440px) {
+  section {
+    display: none;
+  }
+  .temp {
+    display: block;
+    visibility:visible;
+     }
+  footer{
+    margin-top:20%
+  }
 }
 
 
