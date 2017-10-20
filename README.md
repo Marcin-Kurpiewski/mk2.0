@@ -6,4 +6,4 @@
 # 2. Tablet horizontal and landspace. // 100%
 # 3. Laptop. // 100%
 # 4. Desktop. // --> work in progres %%%
-# https://marcin-kurpiewski.github.io/mkurpiewski.com-2.0/
+# [mkurpiewski.com-2.0](https://marcin-kurpiewski.github.io/mkurpiewski.com-2.0/)
