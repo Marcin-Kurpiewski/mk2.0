@@ -1,5 +1,5 @@
 # mk2.0
-![mkurpiewski.com](https://h6.microhost.pl:2222/CMD_FILE_MANAGER/domains/srv16956.microhost.com.pl/images/mkurpiewskicom.jpg)(http://mkurpiewski.com)
+![mkurpiewski.com](http://mkurpiewski.com/assets/images/mkurpiewskicom.jpg)(http://mkurpiewski.com)
 # mkurpiewski.com version 2.0
 # https://marcin-kurpiewski.github.io/mkurpiewski.com-2.0/
 # Html5, CSS3, Sass(Scss), js, jQ.
