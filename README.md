@@ -6,8 +6,4 @@
 # 2. Tablet horizontal and landspace. // 100%
 # 3. Laptop. // 100%
 # 4. Desktop. // --> work in progres %%%
-<<<<<<< HEAD
 # https://marcin-kurpiewski.github.io/mkurpiewski.com-2.0/
-=======
-# https://marcin-kurpiewski.github.io/mkurpiewski.com-2.0/
->>>>>>> 8a92007f69bade8b69a5acf6487c50ad67f8b1d4
