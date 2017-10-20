@@ -1,0 +1,24 @@
+{
+  "name": "mkurpiewski.com-2.0",
+  "version": "1.0.0",
+  "description": "new website",
+  "main": "index.js",
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcin-Kurpiewski/mkurpiewski.com-2.0.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marcin-Kurpiewski/mkurpiewski.com-2.0/issues"
+  },
+  "homepage": "https://github.com/Marcin-Kurpiewski/mkurpiewski.com-2.0#readme"
+}
