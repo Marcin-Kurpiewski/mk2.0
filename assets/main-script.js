@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
 
     $(".burger__btn").click(function () {
@@ -23,8 +24,8 @@ $(document).ready(function () {
 
 
 function temproraryInformation() {
-    var winWidth = window.outerWidth;
-    if (winWidth >= 1456) {
+    var windowWidth = window.innerWidth;
+    if (windowWidth >= 1440) {
         var newDiv = document.createElement('div');
         newDiv.className = "temp";
         var newP = document.createElement('p');
