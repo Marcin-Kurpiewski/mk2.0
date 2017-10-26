@@ -42,7 +42,6 @@ body {
   color: $white;
   background-color: $blue-dark;
   width: 100%;
-
 }
 
 .bg1 {
@@ -128,6 +127,7 @@ header {
     padding: 5% 0;
     width: 20%;
   }
+
 
   .header__box2 {
     width: 60%;
@@ -600,6 +600,7 @@ footer {
     padding-top: 10%;
   }
 }
+
 
 @media screen and (min-width: 768px) and (orientation: landscape) {
   .about {
