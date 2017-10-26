@@ -1,8 +1,3 @@
-// $(window).on("load", function(){
-//     $(".preloader").fadeOut(500);
-// });
-//
-//
 $(document).ready(function () {
 
     $(".burger__btn").click(function () {
@@ -18,21 +13,39 @@ $(document).ready(function () {
     });
 
     $('.nav-item').click(
-        function(event){
+        function (event) {
             event.preventDefault();
             $('html, body').animate({
-                scrollTop: $($.attr(this, 'href')).offset().top -90
-            }, 800)});
+                scrollTop: $($.attr(this, 'href')).offset().top - 90
+            }, 800)
+        });
 });
 
 
-// var svg = new Walkway({
-//     selector: '#test',
-//     duration: '3000',
-//     // can pass in a function or a string like 'easeOutQuint'
-//     easing: function (t) {
-//         return t * t;
-//     }
-// });
+function temproraryInformation() {
+    var winWidth = window.outerWidth;
+    if (winWidth >= 1456) {
+        var newDiv = document.createElement('div');
+        newDiv.className = "temp";
+        var newP = document.createElement('p');
+        newP.className = "info";
+        var addTxt = document.createTextNode("Ooopsss max resolution below 1440 px,");
+        var addTxt1= document.createTextNode(" the rest of the build....");
+        var addTxt2= document.createTextNode(" sorry about it :)");
+        newP.appendChild(addTxt);
+        newP.appendChild(addTxt1);
+        newP.appendChild(addTxt2);
+        var newImg = document.createElement('img');
+        newImg.className = "img_info";
+        newImg.src = "assets/images/mobile_info.png";
 
+        newDiv.appendChild(newP);
+        newDiv.appendChild(newImg);
+        var position = document.getElementsByTagName('body')[0];
+        var positionBefore= document.getElementsByTagName('footer')[0];
+        position.insertBefore(newDiv,positionBefore);
 
+    }
+};
+
+temproraryInformation();
