@@ -37,8 +37,8 @@ $(document).ready(function () {
             var newP = document.createElement('p');
             newP.className = "info";
             var addTxt = document.createTextNode("Ooopsss max resolution below 1440 px, ");
-            var addTxt1= document.createTextNode(" the rest of the build....");
-            var addTxt2= document.createTextNode(" sorry about it :)");
+            var addTxt1= document.createTextNode("the rest of the build.... ");
+            var addTxt2= document.createTextNode("sorry about it :)");
             newP.appendChild(addTxt);
             newP.appendChild(addTxt1);
             newP.appendChild(addTxt2);
