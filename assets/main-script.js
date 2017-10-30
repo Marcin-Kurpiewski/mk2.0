@@ -19,8 +19,8 @@ $(document).ready(function () {
         }
     }
 
-    // var brgButton = document.getElementById('brg_btn');
-    // brgButton.addEventListener('click', burgerMenu, false);
+    var brgButton = document.getElementById('brg_btn');
+    brgButton.addEventListener('click', burgerMenu, false);
     //
     // function temporaryInformation() {
     //     var windowWidth = window.innerWidth;

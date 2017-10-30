@@ -123,19 +123,19 @@ header {
 .about {
   background: url("images/2_About/graphic_element2.png") no-repeat;
   background-position: top left; }
-  .about h2 {
+  .about h2 h2 {
     font-size: 36px;
     color: #c5c5c5;
     letter-spacing: -1px;
     text-align: right;
     padding: 5% 10% 0 0; }
-    .about h2::before {
-      content: "01";
-      color: #0d48de;
-      font-weight: bold;
-      display: inline-block;
-      position: relative;
-      margin-right: 10px; }
+  .about h2::before {
+    content: "01";
+    color: #0d48de;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px; }
   .about .about-bg {
     background: url("images/2_About/graphic_element.png") no-repeat;
     background-position: bottom right;
@@ -185,21 +185,21 @@ header {
   background-position: 20% top;
   background-size: 80%;
   background-color: #020424; }
-  .education h2 {
+  .education h2 h2 {
     font-size: 36px;
     color: #c5c5c5;
     letter-spacing: -1px;
     text-align: right;
     padding: 5% 10% 0 0; }
-    .education h2::before {
-      content: "01";
-      color: #0d48de;
-      font-weight: bold;
-      display: inline-block;
-      position: relative;
-      margin-right: 10px; }
-    .education h2::before {
-      content: "02"; }
+  .education h2::before {
+    content: "01";
+    color: #0d48de;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px; }
+  .education h2::before {
+    content: "02"; }
   .education .education-bg {
     padding-bottom: 1%;
     padding-top: 1%; }
@@ -232,21 +232,21 @@ header {
   background: url("images/4_Skills/graphic-element--rot.png") no-repeat;
   background-position: left center;
   background-size: 40%; }
-  .skills h2 {
+  .skills h2 h2 {
     font-size: 36px;
     color: #c5c5c5;
     letter-spacing: -1px;
     text-align: right;
     padding: 5% 10% 0 0; }
-    .skills h2::before {
-      content: "01";
-      color: #0d48de;
-      font-weight: bold;
-      display: inline-block;
-      position: relative;
-      margin-right: 10px; }
-    .skills h2::before {
-      content: "03"; }
+  .skills h2::before {
+    content: "01";
+    color: #0d48de;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px; }
+  .skills h2::before {
+    content: "03"; }
   .skills .skills_container {
     display: flex;
     flex-direction: column; }
@@ -282,21 +282,21 @@ header {
 
 .portfolio {
   background-color: #020424; }
-  .portfolio h2 {
+  .portfolio h2 h2 {
     font-size: 36px;
     color: #c5c5c5;
     letter-spacing: -1px;
     text-align: right;
     padding: 5% 10% 0 0; }
-    .portfolio h2::before {
-      content: "01";
-      color: #0d48de;
-      font-weight: bold;
-      display: inline-block;
-      position: relative;
-      margin-right: 10px; }
-    .portfolio h2::before {
-      content: "04"; }
+  .portfolio h2::before {
+    content: "01";
+    color: #0d48de;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px; }
+  .portfolio h2::before {
+    content: "04"; }
   .portfolio .portfolio__box {
     width: 98%;
     margin: 5% auto;
@@ -363,21 +363,21 @@ header {
   background: url("images/6_Contact/bg.jpg") no-repeat;
   background-size: 200%;
   background-position: bottom left; }
-  .contact h2 {
+  .contact h2 h2 {
     font-size: 36px;
     color: #c5c5c5;
     letter-spacing: -1px;
     text-align: right;
     padding: 5% 10% 0 0; }
-    .contact h2::before {
-      content: "01";
-      color: #0d48de;
-      font-weight: bold;
-      display: inline-block;
-      position: relative;
-      margin-right: 10px; }
-    .contact h2::before {
-      content: "05"; }
+  .contact h2::before {
+    content: "01";
+    color: #0d48de;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px; }
+  .contact h2::before {
+    content: "05"; }
   .contact .contact__social__bar {
     max-width: 960px;
     margin: 5% auto;
@@ -610,21 +610,6 @@ footer {
 @media screen and (min-width: 1680px) {
   .portfolio .portfolio__box ul .port_list {
     width: 16%;
-    min-height: 480px; }
-
-  .about h2 {
-    font-size: 36px;
-    color: #c5c5c5;
-    letter-spacing: -1px;
-    text-align: right;
-    padding: 5% 10% 0 0;
-    font-size: 54px; }
-    .about h2::before {
-      content: "01";
-      color: #0d48de;
-      font-weight: bold;
-      display: inline-block;
-      position: relative;
-      margin-right: 10px; } }
+    min-height: 480px; } }
 
 /*# sourceMappingURL=mainstyle.css.map */
