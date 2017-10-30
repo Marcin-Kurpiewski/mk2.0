@@ -86,8 +86,12 @@ header {
   header .open-nav {
     height: 100%;
     width: 100%;
-    opacity: 1;
-    transition: opacity 2s linear 2s; }
+    opacity: 1; }
+    header .open-nav li {
+      cursor: pointer;
+      transition: background-color 1s linear; }
+      header .open-nav li:hover {
+        background-color: #0d48de; }
   header .nav-item {
     height: 100%;
     text-decoration: none;
@@ -96,9 +100,6 @@ header {
     letter-spacing: -1px;
     line-height: 1.75;
     cursor: pointer; }
-    header .nav-item:hover {
-      color: #0d48de;
-      font-weight: 800; }
   header .btn__logo__mobile .logo__mobile {
     max-width: 41.14px; }
 
@@ -108,15 +109,6 @@ header {
 
 .fa {
   color: #fff; }
-
-#test {
-  color: #fff; }
-
-svg path, svg line, svg polyline {
-  stroke: #fff;
-  stroke-width: 3px; }
-svg path {
-  fill: transparent; }
 
 .social__home {
   display: none; }
@@ -176,11 +168,12 @@ svg path {
     .about .about-bg .about__list {
       width: 90%; }
       .about .about-bg .about__list dl {
-        margin-bottom: 15%; }
+        margin-bottom: 15%;
+        max-width: 960px; }
         .about .about-bg .about__list dl dt, .about .about-bg .about__list dl dd {
           display: inline-block;
           width: 40%;
-          font-size: 18px;
+          font-size: 24px;
           line-height: 2;
           color: #919191;
           font-weight: bold; }
@@ -214,9 +207,11 @@ svg path {
     background-size: 70%;
     padding-bottom: 1%; }
     .education .education-bg .edu__box {
-      margin: 10% 10%;
+      margin: 10% 5%;
       display: flex;
-      flex-direction: row; }
+      flex-direction: row;
+      justify-content: center;
+      align-items: center; }
       .education .education-bg .edu__box .edu_img {
         width: 20%; }
         .education .education-bg .edu__box .edu_img img {
@@ -255,35 +250,38 @@ svg path {
       margin-right: 10px; }
     .skills h2::before {
       content: "03"; }
-  .skills .skills__box {
-    width: 90%;
-    text-align: center;
-    margin: 10% auto; }
-    .skills .skills__box .skills__img {
-      max-width: 20%; }
-    .skills .skills__box .skills__title {
-      font-size: 20px;
-      color: #fff;
-      font-weight: bold;
-      margin: 5% 0; }
-      .skills .skills__box .skills__title span {
-        border-bottom: 2px solid #fff;
-        padding-bottom: 5px; }
-      .skills .skills__box .skills__title img {
-        display: block;
-        text-align: center;
-        margin: 5% auto; }
-    .skills .skills__box ul {
-      display: block;
-      width: 50%;
-      margin-left: auto;
-      margin-right: auto; }
-    .skills .skills__box li {
+  .skills .skills_container {
+    display: flex;
+    flex-direction: column; }
+    .skills .skills_container .skills__box {
+      width: 90%;
       text-align: center;
-      font-weight: lighter;
-      letter-spacing: -1px;
-      line-height: 1.5;
-      color: #c5c5c5; }
+      margin: 10% auto; }
+      .skills .skills_container .skills__box .skills__img {
+        max-width: 20%; }
+      .skills .skills_container .skills__box .skills__title {
+        font-size: 20px;
+        color: #fff;
+        font-weight: bold;
+        margin: 5% 0; }
+        .skills .skills_container .skills__box .skills__title span {
+          border-bottom: 2px solid #fff;
+          padding-bottom: 5px; }
+        .skills .skills_container .skills__box .skills__title img {
+          display: block;
+          text-align: center;
+          margin: 5% auto; }
+      .skills .skills_container .skills__box ul {
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto; }
+      .skills .skills_container .skills__box li {
+        text-align: center;
+        font-weight: lighter;
+        letter-spacing: -1px;
+        line-height: 1.5;
+        color: #c5c5c5; }
 
 .portfolio {
   background-color: #020424; }
@@ -384,7 +382,7 @@ svg path {
     .contact h2::before {
       content: "05"; }
   .contact .contact__social__bar {
-    width: 100%;
+    max-width: 960px;
     margin: 5% auto;
     text-align: center; }
     .contact .contact__social__bar li {
@@ -444,6 +442,10 @@ svg path {
       display: block; }
 
 footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
   background-color: #020424;
   text-align: center;
   line-height: 50px;
@@ -483,37 +485,8 @@ footer {
       margin-right: 5%; }
 
   .education .education-bg .edu__box {
-    margin: 15% 15%; }
+    margin: 15% auto; }
 
-  .skills .skills_container {
-    display: flex; }
-
-  .portfolio .hvr-underline-from-center {
-    display: block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px transparent;
-    position: relative;
-    overflow: hidden; }
-  .portfolio .hvr-underline-from-center:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    left: 50%;
-    right: 50%;
-    bottom: 0;
-    background: #2098D1;
-    height: 4px;
-    -webkit-transition-property: left, right;
-    transition-property: left, right;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out; }
-  .portfolio .hvr-underline-from-center:hover:before, .portfolio .hvr-underline-from-center:focus:before, .portfolio .hvr-underline-from-center:active:before {
-    left: 0;
-    right: 0; }
   .portfolio .hvr-shutter-in-horizontal {
     display: inline-block;
     vertical-align: middle;
@@ -558,15 +531,6 @@ footer {
   .contact .contact__item {
     width: 80%; } }
 @media screen and (min-width: 1024px) {
-  .social__home {
-    display: block;
-    top: 50%; }
-
-  .education .education-bg .edu__box {
-    margin: 10% 10%; }
-    .education .education-bg .edu__box .edu__txt h3, .education .education-bg .edu__box .edu__txt p {
-      font-size: 30px; }
-
   header {
     justify-content: space-between; }
     header div[class*='header__box'] {
@@ -577,9 +541,11 @@ footer {
       flex-shrink: 1;
       flex-grow: 5; }
     header nav ul {
-      height: 100%;
-      display: flex;
-      justify-content: space-around; }
+      height: 100%; }
+      header nav ul li {
+        display: inline-block;
+        text-align: center;
+        width: 16%; }
 
   h2 {
     font-size: 90px;
@@ -593,34 +559,62 @@ footer {
       font-weight: bold;
       display: block;
       position: relative;
-      font-size: 100px; } }
+      font-size: 100px; }
+
+  .social__home {
+    display: block;
+    top: 50%; }
+
+  .education .education-bg .edu__box .edu__txt h3, .education .education-bg .edu__box .edu__txt p {
+    font-size: 30px; } }
 @media screen and (min-width: 1280px) {
-  .main-photo {
-    max-width: 35%; }
-
-  .download__btn {
-    display: block; }
-    .download__btn img {
-      width: 70px;
-      margin: 5% auto; }
-
-  .about__list {
+  .about .about-bg {
+    padding-bottom: 5%; }
+    .about .about-bg .about-img {
+      max-width: 600px; }
+      .about .about-bg .about-img .download__btn {
+        display: block; }
+        .about .about-bg .about-img .download__btn img {
+          width: 70px;
+          margin: 5% auto; }
+  .about .about__list {
+    max-width: 600px;
     order: 2;
-    max-width: 40%;
     align-self: center;
-    margin-right: 5%; } }
+    margin-right: 5%; }
+
+  .education .edu__box {
+    max-width: 1200px; }
+
+  .skills .skills_container {
+    max-width: 1200px;
+    flex-direction: row;
+    margin: auto; }
+
+  .portfolio .portfolio__box {
+    max-width: 1200px; }
+    .portfolio .portfolio__box ul {
+      padding-bottom: 5%; }
+      .portfolio .portfolio__box ul .port_list {
+        width: 48%; }
+
+  .contact .contact__logo {
+    max-width: 100px; }
+  .contact .contact__box {
+    max-width: 1200px; } }
 @media screen and (min-width: 1440px) {
-  section {
-    display: none; }
+  .header .nav-item {
+    line-height: 2.75; }
+
+  .portfolio .portfolio__box ul .port_list {
+    width: 24%; }
 
   .temp {
     display: block;
-    visibility: visible; }
-
-  footer {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0; } }
+    visibility: visible; } }
+@media screen and (min-width: 1680px) {
+  .portfolio .portfolio__box ul .port_list {
+    width: 16%;
+    min-height: 480px; } }
 
 /*# sourceMappingURL=mainstyle.css.map */
