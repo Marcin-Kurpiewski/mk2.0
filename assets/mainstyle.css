@@ -74,7 +74,7 @@ header {
   justify-content: space-around; }
   header div[class*='header__box'] {
     text-align: center;
-    padding: 5% 0;
+    padding: 2% 0;
     width: 20%; }
   header .header__box2 {
     width: 60%; }
@@ -88,7 +88,6 @@ header {
     width: 100%;
     opacity: 1; }
     header .open-nav li {
-      cursor: pointer;
       transition: background-color 1s linear; }
       header .open-nav li:hover {
         background-color: #0d48de; }
@@ -202,10 +201,8 @@ header {
     .education h2::before {
       content: "02"; }
   .education .education-bg {
-    background: url("images/3_Education/graphi_1.png") no-repeat;
-    background-position: bottom right;
-    background-size: 70%;
-    padding-bottom: 1%; }
+    padding-bottom: 1%;
+    padding-top: 1%; }
     .education .education-bg .edu__box {
       margin: 10% 5%;
       display: flex;
@@ -480,12 +477,11 @@ footer {
         margin: 5% auto; }
     .about .about-bg .about__list {
       order: 2;
-      max-width: 50%;
-      align-self: center;
-      margin-right: 5%; }
+      width: 50%;
+      margin-left: 7%; }
 
   .education .education-bg .edu__box {
-    margin: 10% auto; }
+    margin: 5% auto; }
 
   .portfolio .hvr-shutter-in-horizontal {
     display: inline-block;
@@ -580,8 +576,7 @@ footer {
   .about .about__list {
     max-width: 600px;
     order: 2;
-    align-self: center;
-    margin-right: 5%; }
+    align-self: center; }
 
   .education .edu__box {
     max-width: 1200px; }
@@ -615,6 +610,21 @@ footer {
 @media screen and (min-width: 1680px) {
   .portfolio .portfolio__box ul .port_list {
     width: 16%;
-    min-height: 480px; } }
+    min-height: 480px; }
+
+  .about h2 {
+    font-size: 36px;
+    color: #c5c5c5;
+    letter-spacing: -1px;
+    text-align: right;
+    padding: 5% 10% 0 0;
+    font-size: 54px; }
+    .about h2::before {
+      content: "01";
+      color: #0d48de;
+      font-weight: bold;
+      display: inline-block;
+      position: relative;
+      margin-right: 10px; } }
 
 /*# sourceMappingURL=mainstyle.css.map */

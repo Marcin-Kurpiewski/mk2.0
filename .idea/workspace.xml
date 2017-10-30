@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="abe560b3-0ee7-47a0-8104-3422f7496b1a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/main-script.js" afterPath="$PROJECT_DIR$/assets/main-script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/mainstyle.css" afterPath="$PROJECT_DIR$/assets/mainstyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/mainstyle.css.map" afterPath="$PROJECT_DIR$/assets/mainstyle.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/mainstyle.scss" afterPath="$PROJECT_DIR$/assets/mainstyle.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,14 +23,14 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.33021078">
+    <splitter split-orientation="horizontal" split-proportion="0.27533633">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="65" column="30" lean-forward="true" selection-start-line="65" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
+                <state relative-caret-position="878">
+                  <caret line="132" column="55" lean-forward="false" selection-start-line="132" selection-start-column="55" selection-end-line="132" selection-end-column="55" />
                   <folding />
                 </state>
               </provider>
@@ -36,24 +39,14 @@
         </leaf>
       </split-first>
       <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.5139301">
+        <splitter split-orientation="horizontal" split-proportion="0.5">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="main-script.js" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/assets/main-script.js">
+              <file leaf-file-name="mainstyle.scss" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/assets/mainstyle.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="529">
-                      <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/.gitignore">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="51">
-                      <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+                    <state relative-caret-position="213">
+                      <caret line="254" column="4" lean-forward="false" selection-start-line="254" selection-start-column="6" selection-end-line="254" selection-end-column="27" />
                       <folding />
                     </state>
                   </provider>
@@ -62,12 +55,12 @@
             </leaf>
           </split-first>
           <split-second>
-            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+            <leaf>
               <file leaf-file-name="mainstyle.scss" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/assets/mainstyle.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="272">
-                      <caret line="647" column="3" lean-forward="true" selection-start-line="647" selection-start-column="3" selection-end-line="647" selection-end-column="3" />
+                    <state relative-caret-position="564">
+                      <caret line="798" column="1" lean-forward="true" selection-start-line="798" selection-start-column="1" selection-end-line="798" selection-end-column="1" />
                       <folding />
                     </state>
                   </provider>
@@ -101,6 +94,7 @@
       <find>about</find>
       <find>section</find>
       <find>edu__box</find>
+      <find>$font</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -126,8 +120,8 @@
         <option value="$PROJECT_DIR$/assets/hover/hover.css" />
         <option value="$PROJECT_DIR$/xxx.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/main-script.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/mainstyle.scss" />
       </list>
     </option>
@@ -149,9 +143,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-517" />
-    <option name="y" value="117" />
-    <option name="width" value="2557" />
+    <option name="x" value="244" />
+    <option name="y" value="184" />
+    <option name="width" value="1918" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -180,6 +174,16 @@
             <path>
               <item name="mk2.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="mk2.0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mk2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mk2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mk2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mk2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -346,7 +350,7 @@
       <workItem from="1507833646523" duration="3578000" />
       <workItem from="1507839431936" duration="205000" />
       <workItem from="1509009119659" duration="13387000" />
-      <workItem from="1509392442225" duration="365000" />
+      <workItem from="1509392442225" duration="4428000" />
     </task>
     <task id="LOCAL-00001" summary="hom section ready, missing logo">
       <created>1485300638581</created>
@@ -485,7 +489,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="287087000" />
+    <option name="totallyTimeSpent" value="291150000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -497,16 +501,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-517" y="117" width="2557" height="1038" extended-state="0" />
-    <editor active="true" />
+    <frame x="244" y="184" width="1918" height="1038" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12139918" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16227607" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969603" sideWeight="0.50157607" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0780065" sideWeight="0.49842396" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19290465" sideWeight="0.50212765" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07717391" sideWeight="0.49842396" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.335152" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27383593" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19290465" sideWeight="0.49787235" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0032502708" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -809,24 +812,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/main-script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state relative-caret-position="765">
+          <caret line="45" column="61" lean-forward="true" selection-start-line="44" selection-start-column="79" selection-end-line="45" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="65" column="30" lean-forward="true" selection-start-line="65" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
+        <state relative-caret-position="878">
+          <caret line="132" column="55" lean-forward="false" selection-start-line="132" selection-start-column="55" selection-end-line="132" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/mainstyle.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="647" column="3" lean-forward="true" selection-start-line="647" selection-start-column="3" selection-end-line="647" selection-end-column="3" />
+        <state relative-caret-position="213">
+          <caret line="254" column="4" lean-forward="false" selection-start-line="254" selection-start-column="6" selection-end-line="254" selection-end-column="27" />
           <folding />
         </state>
       </provider>

@@ -7,7 +7,6 @@ $grey: #c5c5c5;
 $grey-dark: #919191;
 $white: #fff;
 $font-size: 18px;
-$font-h2: 100px;
 $max-width-1200: 1200px;
 $bg-cover:cover;
 
@@ -117,7 +116,7 @@ header {
 
   div[class*='header__box'] {
     text-align: center;
-    padding: 5% 0;
+    padding: 2% 0;
     width: 20%;
   }
   .header__box2 {
@@ -134,7 +133,7 @@ header {
     width: 100%;
     opacity: 1;
     li{
-      cursor: pointer;
+
       transition: background-color 1s linear;
       &:hover{
         background-color: $blue;
@@ -251,10 +250,11 @@ header {
     }
   }
   .education-bg {
-    background: url("images/3_Education/graphi_1.png") no-repeat;
-    background-position: bottom right;
-    background-size: 70%;
+    //background: url("images/3_Education/graphi_1.png") no-repeat;
+    //background-position: bottom right;
+    //background-size: 70%;
     padding-bottom: 1%;
+    padding-top: 1%;
     .edu__box {
       margin: 10% 5%;
       display: flex;
@@ -572,17 +572,15 @@ footer {
       }
       .about__list {
         order: 2;
-        max-width: 50%;
-        align-self: center;
-        margin-right: 5%;
-
+        width: 50%;
+        margin-left: 7%;
       }
     }
   }
   .education {
     .education-bg {
       .edu__box {
-        margin: 10% auto;
+        margin: 5% auto;
       }
     }
   }
@@ -721,7 +719,7 @@ footer {
       max-width: $max-width-1200/2;
       order: 2;
       align-self: center;
-      margin-right: 5%;
+
     }
   }
   .education {
@@ -793,4 +791,9 @@ footer {
       }
     }
   }
+  .about{
+    h2{
+    @include h2-title;
+    font-size: $font-size *3;
+  }}
 }
