@@ -137,7 +137,7 @@ header {
       position: relative;
       margin-right: 10px; }
   .about .about-bg {
-    background: url("../images/2_About/graphic_element.png") no-repeat;
+    background: url("../images/2_About/graphic_element3.png") no-repeat;
     background-position: bottom right;
     display: flex;
     flex-direction: column;
@@ -172,7 +172,6 @@ header {
         .about .about-bg .about__list dl dt, .about .about-bg .about__list dl dd {
           display: inline-block;
           width: 40%;
-          font-size: 24px;
           line-height: 2;
           color: #919191;
           font-weight: bold; }
@@ -210,7 +209,7 @@ header {
       .education .education-bg .edu__box .edu_img {
         width: 20%; }
         .education .education-bg .edu__box .edu_img img {
-          max-width: 45%; }
+          max-width: 65%; }
       .education .education-bg .edu__box .edu__txt {
         width: 80%; }
         .education .education-bg .edu__box .edu__txt h3, .education .education-bg .edu__box .edu__txt p {
@@ -228,8 +227,7 @@ header {
 
 .skills {
   background: url("../images/4_Skills/graphic-element--rot.png") no-repeat;
-  background-position: left center;
-  background-size: 40%; }
+  background-position: left center; }
   .skills h2 {
     font-size: 32px;
     color: #c5c5c5;
@@ -253,8 +251,6 @@ header {
       .skills .skills_container .skills__box .skills__img {
         max-width: 20%; }
       .skills .skills_container .skills__box .skills__title {
-        font-size: 18px;
-        color: #fff;
         font-weight: bold;
         margin: 5% 0; }
         .skills .skills_container .skills__box .skills__title span {

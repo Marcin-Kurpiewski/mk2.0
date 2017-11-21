@@ -182,7 +182,7 @@ header {
   }
 
   .about-bg {
-    background: url("../images/2_About/graphic_element.png") no-repeat;
+    background: url("../images/2_About/graphic_element3.png") no-repeat;
     background-position: bottom right;
     display: flex;
     flex-direction: column;
@@ -222,7 +222,6 @@ header {
         dt, dd {
           display: inline-block;
           width: 40%;
-          font-size: 24px;
           line-height: 2;
           color: $grey-dark;
           font-weight: bold;
@@ -246,9 +245,6 @@ header {
     }
 
     .education-bg {
-      //background: url("images/3_Education/graphi_1.png") no-repeat;
-      //background-position: bottom right;
-      //background-size: 70%;
       padding-bottom: 1%;
       padding-top: 1%;
       .edu__box {
@@ -260,7 +256,7 @@ header {
         .edu_img {
           width: 20%;
           img {
-            max-width: 45%;
+            max-width: 65%;
           }
         }
         .edu__txt {
@@ -287,7 +283,7 @@ header {
   .skills {
     background: url("../images/4_Skills/graphic-element--rot.png") no-repeat;
     background-position: left center;
-    background-size: 40%;
+
     h2 {
       @include h2-title("03");
     }
@@ -302,8 +298,6 @@ header {
           max-width: 20%;
         }
         .skills__title {
-          font-size: $font-size + 2;
-          color: $white;
           font-weight: bold;
           margin: 5% 0;
           span {

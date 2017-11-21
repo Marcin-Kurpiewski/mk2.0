@@ -4,23 +4,31 @@ $(document).ready(function () {
             event.preventDefault();
             $('html, body').animate({
                 scrollTop: $($.attr(this, 'href')).offset().top - 90
-            }, 800)
+            }, 800);
+            $('')
         });
 
     function burgerMenu() {
 
-        var menuElem = document.getElementById('brg_nav');
-
+        var menuElem = document.getElementById('brg_nav'),
+            nav_btn = document.getElementById('btnx');
+            console.log(nav_btn);
         event.preventDefault();
         if (menuElem.className === 'close-nav') {
             menuElem.className = 'open-nav';
+            nav_btn.className = 'fa fa-times fa-3x';
         } else {
             menuElem.className = 'close-nav';
+            nav_btn.className = 'fa fa-bars fa-3x';
         }
+
     }
 
     var brgButton = document.getElementById('brg_btn');
     brgButton.addEventListener('click', burgerMenu, false);
+
+
+
     //
     // function temporaryInformation() {
     //     var windowWidth = window.innerWidth;
