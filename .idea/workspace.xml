@@ -2,10 +2,143 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abe560b3-0ee7-47a0-8104-3422f7496b1a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scss/_settings.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scss/mainstyle.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/.sass-cache/d3815767d37383d12351dbdd43a4c5fcd9c6f115/style.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/mainstyle.css.map" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/mainstyle.css" afterPath="$PROJECT_DIR$/assets/mainstyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/mainstyle.css.map" afterPath="$PROJECT_DIR$/assets/mainstyle.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/mainstyle.scss" afterPath="$PROJECT_DIR$/assets/mainstyle.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/HELP-US-OUT.txt" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/HELP-US-OUT.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/css/font-awesome.css" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/css/font-awesome.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/fonts/FontAwesome.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/less/animated.less" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/less/animated.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/less/bordered-pulled.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/less/core.less" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/less/core.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/less/fixed-width.less" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/less/fixed-width.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/less/font-awesome.less" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/less/font-awesome.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/less/icons.less" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/less/icons.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/less/larger.less" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/less/larger.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/less/list.less" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/less/list.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/less/mixins.less" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/less/mixins.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/less/path.less" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/less/path.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/less/rotated-flipped.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/less/screen-reader.less" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/less/screen-reader.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/less/stacked.less" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/less/stacked.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/less/variables.less" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/less/variables.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/scss/_animated.scss" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/scss/_animated.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/scss/_bordered-pulled.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/scss/_core.scss" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/scss/_core.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/scss/_fixed-width.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/scss/_icons.scss" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/scss/_icons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/scss/_larger.scss" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/scss/_larger.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/scss/_list.scss" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/scss/_list.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/scss/_mixins.scss" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/scss/_mixins.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/scss/_path.scss" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/scss/_path.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/scss/_rotated-flipped.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/scss/_screen-reader.scss" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/scss/_screen-reader.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/scss/_stacked.scss" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/scss/_stacked.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/scss/_variables.scss" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/scss/_variables.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/scss/font-awesome.css" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/scss/font-awesome.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/scss/font-awesome.css.map" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/scss/font-awesome.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font-awesome-4.7.0/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/app/extras/font-awesome-4.7.0/scss/font-awesome.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font/UFL.txt" afterPath="$PROJECT_DIR$/app/extras/font/UFL.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font/Ubuntu-Bold.ttf" afterPath="$PROJECT_DIR$/app/extras/font/Ubuntu-Bold.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font/Ubuntu-BoldItalic.ttf" afterPath="$PROJECT_DIR$/app/extras/font/Ubuntu-BoldItalic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font/Ubuntu-Italic.ttf" afterPath="$PROJECT_DIR$/app/extras/font/Ubuntu-Italic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font/Ubuntu-Light.ttf" afterPath="$PROJECT_DIR$/app/extras/font/Ubuntu-Light.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font/Ubuntu-LightItalic.ttf" afterPath="$PROJECT_DIR$/app/extras/font/Ubuntu-LightItalic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font/Ubuntu-Medium.ttf" afterPath="$PROJECT_DIR$/app/extras/font/Ubuntu-Medium.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font/Ubuntu-MediumItalic.ttf" afterPath="$PROJECT_DIR$/app/extras/font/Ubuntu-MediumItalic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font/Ubuntu-Regular.ttf" afterPath="$PROJECT_DIR$/app/extras/font/Ubuntu-Regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/hover/hover.css" afterPath="$PROJECT_DIR$/app/css/hover/hover.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/1_Home/Sphere.png" afterPath="$PROJECT_DIR$/app/images/1_Home/Sphere.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/1_Home/bg.jpg" afterPath="$PROJECT_DIR$/app/images/1_Home/bg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/1_Home/fb.png" afterPath="$PROJECT_DIR$/app/images/1_Home/fb.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/1_Home/g+.png" afterPath="$PROJECT_DIR$/app/images/1_Home/g+.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/1_Home/logo.png" afterPath="$PROJECT_DIR$/app/images/1_Home/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/1_Home/menu-guide.png" afterPath="$PROJECT_DIR$/app/images/1_Home/menu-guide.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/1_Home/point.png" afterPath="$PROJECT_DIR$/app/images/1_Home/point.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/1_Home/scroll_1.png" afterPath="$PROJECT_DIR$/app/images/1_Home/scroll_1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/1_Home/scroll_1and2.png" afterPath="$PROJECT_DIR$/app/images/1_Home/scroll_1and2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/1_Home/scroll_2.png" afterPath="$PROJECT_DIR$/app/images/1_Home/scroll_2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/1_Home/sphere_big .png" afterPath="$PROJECT_DIR$/app/images/1_Home/sphere_big .png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/1_Home/sphere_small.png" afterPath="$PROJECT_DIR$/app/images/1_Home/sphere_small.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/1_Home/twiter.png" afterPath="$PROJECT_DIR$/app/images/1_Home/twiter.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/2_About/Dwonload_icon.png" afterPath="$PROJECT_DIR$/app/images/2_About/Dwonload_icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/2_About/bg.jpg" afterPath="$PROJECT_DIR$/app/images/2_About/bg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/2_About/graphic_element.png" afterPath="$PROJECT_DIR$/app/images/2_About/graphic_element.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/2_About/graphic_element2.png" afterPath="$PROJECT_DIR$/app/images/2_About/graphic_element2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/2_About/photo.png" afterPath="$PROJECT_DIR$/app/images/2_About/photo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/2_About/photo_circle.png" afterPath="$PROJECT_DIR$/app/images/2_About/photo_circle.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/2_About/point_horizon.png" afterPath="$PROJECT_DIR$/app/images/2_About/point_horizon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/2_About/point_vertical.png" afterPath="$PROJECT_DIR$/app/images/2_About/point_vertical.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/3_Education/Icon_1.png" afterPath="$PROJECT_DIR$/app/images/3_Education/Icon_1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/3_Education/Icon_2.png" afterPath="$PROJECT_DIR$/app/images/3_Education/Icon_2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/3_Education/Icon_3.png" afterPath="$PROJECT_DIR$/app/images/3_Education/Icon_3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/3_Education/bg.jpg" afterPath="$PROJECT_DIR$/app/images/3_Education/bg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/3_Education/graphi_1.png" afterPath="$PROJECT_DIR$/app/images/3_Education/graphi_1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/3_Education/graphi_2.png" afterPath="$PROJECT_DIR$/app/images/3_Education/graphi_2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/3_Education/point.png" afterPath="$PROJECT_DIR$/app/images/3_Education/point.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/3_Education/point_2.png" afterPath="$PROJECT_DIR$/app/images/3_Education/point_2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/4_Skills/Marcin-kurpiewski_main_www.jpg" afterPath="$PROJECT_DIR$/app/images/4_Skills/Marcin-kurpiewski_main_www.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/4_Skills/bg.jpg" afterPath="$PROJECT_DIR$/app/images/4_Skills/bg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/4_Skills/dot_point.png" afterPath="$PROJECT_DIR$/app/images/4_Skills/dot_point.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/4_Skills/graphic-element--rot.png" afterPath="$PROJECT_DIR$/app/images/4_Skills/graphic-element--rot.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/4_Skills/graphic-element-rot.png" afterPath="$PROJECT_DIR$/app/images/4_Skills/graphic-element-rot.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/4_Skills/graphic-element.png" afterPath="$PROJECT_DIR$/app/images/4_Skills/graphic-element.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/4_Skills/icon_1.png" afterPath="$PROJECT_DIR$/app/images/4_Skills/icon_1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/4_Skills/icon_2.png" afterPath="$PROJECT_DIR$/app/images/4_Skills/icon_2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/4_Skills/icon_3.png" afterPath="$PROJECT_DIR$/app/images/4_Skills/icon_3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/4_Skills/icon_31.png" afterPath="$PROJECT_DIR$/app/images/4_Skills/icon_31.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/4_Skills/perc.png" afterPath="$PROJECT_DIR$/app/images/4_Skills/perc.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/4_Skills/point_horizontaal.png" afterPath="$PROJECT_DIR$/app/images/4_Skills/point_horizontaal.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/4_Skills/point_vertical.png" afterPath="$PROJECT_DIR$/app/images/4_Skills/point_vertical.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/5_Portfolio/bg.jpg" afterPath="$PROJECT_DIR$/app/images/5_Portfolio/bg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/5_Portfolio/box_1_on_hover.jpg" afterPath="$PROJECT_DIR$/app/images/5_Portfolio/box_1_on_hover.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/5_Portfolio/box_2_on_hover.jpg" afterPath="$PROJECT_DIR$/app/images/5_Portfolio/box_2_on_hover.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/5_Portfolio/box_3_on_hover.jpg" afterPath="$PROJECT_DIR$/app/images/5_Portfolio/box_3_on_hover.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/5_Portfolio/box_4.jpg" afterPath="$PROJECT_DIR$/app/images/5_Portfolio/box_4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/5_Portfolio/box_4_on_hover.jpg" afterPath="$PROJECT_DIR$/app/images/5_Portfolio/box_4_on_hover.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/5_Portfolio/box_5.jpg" afterPath="$PROJECT_DIR$/app/images/5_Portfolio/box_5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/5_Portfolio/box_6 .jpg" afterPath="$PROJECT_DIR$/app/images/5_Portfolio/box_6 .jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/5_Portfolio/box_7.jpg" afterPath="$PROJECT_DIR$/app/images/5_Portfolio/box_7.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/5_Portfolio/box_8.jpg" afterPath="$PROJECT_DIR$/app/images/5_Portfolio/box_8.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/5_Portfolio/casino-game.jpg" afterPath="$PROJECT_DIR$/app/images/5_Portfolio/casino-game.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/5_Portfolio/casino-game.png" afterPath="$PROJECT_DIR$/app/images/5_Portfolio/casino-game.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/5_Portfolio/event-app.jpg" afterPath="$PROJECT_DIR$/app/images/5_Portfolio/event-app.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/5_Portfolio/github-code.jpg" afterPath="$PROJECT_DIR$/app/images/5_Portfolio/github-code.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/5_Portfolio/landing-page-event.jpg" afterPath="$PROJECT_DIR$/app/images/5_Portfolio/landing-page-event.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/5_Portfolio/lux-clean.png" afterPath="$PROJECT_DIR$/app/images/5_Portfolio/lux-clean.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/5_Portfolio/maxstudio-wp.jpg" afterPath="$PROJECT_DIR$/app/images/5_Portfolio/maxstudio-wp.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/5_Portfolio/point.png" afterPath="$PROJECT_DIR$/app/images/5_Portfolio/point.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/5_Portfolio/point_sm.png" afterPath="$PROJECT_DIR$/app/images/5_Portfolio/point_sm.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/5_Portfolio/port_icon.png" afterPath="$PROJECT_DIR$/app/images/5_Portfolio/port_icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/6_Contact/bg.jpg" afterPath="$PROJECT_DIR$/app/images/6_Contact/bg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/6_Contact/fb.png" afterPath="$PROJECT_DIR$/app/images/6_Contact/fb.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/6_Contact/git.png" afterPath="$PROJECT_DIR$/app/images/6_Contact/git.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/6_Contact/ig.png" afterPath="$PROJECT_DIR$/app/images/6_Contact/ig.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/6_Contact/in.png" afterPath="$PROJECT_DIR$/app/images/6_Contact/in.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/6_Contact/log.png" afterPath="$PROJECT_DIR$/app/images/6_Contact/log.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/6_Contact/tweet.png" afterPath="$PROJECT_DIR$/app/images/6_Contact/tweet.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/logo-m-kurpiewski-kontury.svg" afterPath="$PROJECT_DIR$/app/images/logo-m-kurpiewski-kontury.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/logo-m-kurpiewski.svg" afterPath="$PROJECT_DIR$/app/images/logo-m-kurpiewski.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/logo.ai" afterPath="$PROJECT_DIR$/app/images/logo.ai" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/logo.svg" afterPath="$PROJECT_DIR$/app/images/logo.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/mobile_info.png" afterPath="$PROJECT_DIR$/app/images/mobile_info.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/lib/jquery-3.2.1.min.js" afterPath="$PROJECT_DIR$/app/extras/jquery-3.2.1.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/main-script.js" afterPath="$PROJECT_DIR$/app/main-script.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/mainstyle.css" afterPath="$PROJECT_DIR$/app/scss/mainstyle.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/mainstyle.scss" afterPath="$PROJECT_DIR$/app/scss/mainstyle.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/reset.css" afterPath="$PROJECT_DIR$/app/css/reset.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,14 +154,58 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.27533633">
+    <splitter split-orientation="horizontal" split-proportion="0.3497537">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/index.html">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="62">
-                  <caret line="84" column="32" lean-forward="true" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="32" />
+                <state relative-caret-position="690">
+                  <caret line="292" column="9" lean-forward="false" selection-start-line="292" selection-start-column="9" selection-end-line="292" selection-end-column="9" />
+                  <folding>
+                    <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="527">
+                  <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gulpfile.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="612">
+                  <caret line="36" column="58" lean-forward="false" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="mainstyle.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/css/mainstyle.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-3620">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding>
+                    <marker date="1511274201372" expanded="true" signature="3183:3288" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_settings.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/scss/_settings.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="153">
+                  <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -41,11 +218,28 @@
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file leaf-file-name="mainstyle.scss" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/assets/mainstyle.scss">
+                <entry file="file://$PROJECT_DIR$/app/scss/mainstyle.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="547">
-                      <caret line="804" column="3" lean-forward="false" selection-start-line="804" selection-start-column="3" selection-end-line="804" selection-end-column="3" />
-                      <folding />
+                    <state relative-caret-position="795">
+                      <caret line="774" column="0" lean-forward="true" selection-start-line="774" selection-start-column="0" selection-end-line="774" selection-end-column="0" />
+                      <folding>
+                        <element signature="e#3358#4474#0" expanded="false" />
+                        <element signature="e#4718#5582#0" expanded="false" />
+                        <element signature="e#5810#6705#0" expanded="false" />
+                        <element signature="e#6823#8953#0" expanded="false" />
+                        <element signature="e#9170#9526#0" expanded="false" />
+                        <element signature="e#9546#9615#0" expanded="false" />
+                        <element signature="e#9634#10767#0" expanded="false" />
+                        <element signature="e#10072#10581#0" expanded="false" />
+                        <element signature="e#10972#11181#0" expanded="false" />
+                        <element signature="e#11251#13563#0" expanded="false" />
+                        <element signature="e#11264#11800#0" expanded="false" />
+                        <element signature="e#11927#13487#0" expanded="false" />
+                        <element signature="e#13605#14278#0" expanded="false" />
+                        <element signature="e#14320#15315#0" expanded="false" />
+                        <element signature="e#15357#15660#0" expanded="false" />
+                        <element signature="e#15702#15875#0" expanded="false" />
+                      </folding>
                     </state>
                   </provider>
                 </entry>
@@ -53,12 +247,12 @@
             </leaf>
           </split-first>
           <split-second>
-            <leaf>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file leaf-file-name="mainstyle.scss" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/assets/mainstyle.scss">
+                <entry file="file://$PROJECT_DIR$/app/scss/mainstyle.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="547">
-                      <caret line="804" column="3" lean-forward="false" selection-start-line="804" selection-start-column="3" selection-end-line="804" selection-end-column="3" />
+                    <state relative-caret-position="102">
+                      <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
                       <folding />
                     </state>
                   </provider>
@@ -74,8 +268,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
     <option name="SCHEME" value="Project" />
@@ -93,6 +287,8 @@
       <find>section</find>
       <find>edu__box</find>
       <find>$font</find>
+      <find>h2</find>
+      <find>@mi</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -117,10 +313,17 @@
         <option value="$PROJECT_DIR$/assets/mainstyle.css" />
         <option value="$PROJECT_DIR$/assets/hover/hover.css" />
         <option value="$PROJECT_DIR$/xxx.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/assets/main-script.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/mainstyle.scss" />
+        <option value="$PROJECT_DIR$/assets/scss/mainstyle.scss" />
+        <option value="$PROJECT_DIR$/assets/scss/_settings.scss" />
+        <option value="$PROJECT_DIR$/assets/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/app/scss/_settings.scss" />
+        <option value="$PROJECT_DIR$/app/scss/mainstyle.scss" />
       </list>
     </option>
   </component>
@@ -140,11 +343,11 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="470" />
-    <option name="y" value="178" />
-    <option name="width" value="1918" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="438" />
+    <option name="y" value="40" />
+    <option name="width" value="1499" />
+    <option name="height" value="1306" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -164,8 +367,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,17 +377,34 @@
             <path>
               <item name="mk2.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="mk2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mk2.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="mk2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mk2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mk2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="1_Home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mk2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mk2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="6_Contact" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,16 +422,19 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebStorm-projects\mk2.0\app\images\6_Contact" />
+      <recent name="D:\WebStorm-projects\mk2.0\assets\css" />
+      <recent name="D:\WebStorm-projects\mk2.0\assets\scss" />
+      <recent name="D:\WebStorm-projects\mk2.0\assets\extras" />
+      <recent name="D:\WebStorm-projects\mk2.0\assets" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WebStorm-projects\mk2.0\assets\lib" />
       <recent name="C:\Users\HP-M\.WebStorm2016.3\Projects\mk2.0\assets" />
       <recent name="C:\Users\HP-M\.WebStorm2016.3\Projects\mk2.0\assets\images\5_Portfolio" />
       <recent name="C:\Users\HP-M\.WebStorm2016.3\Projects\mk2.0\assets\hovver" />
       <recent name="C:\Users\HP-M\.WebStorm2016.3\Projects\mk2.0\assets\images" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\HP-M\.WebStorm2016.3\Projects\mk2.0\assets" />
-      <recent name="C:\Users\HP-M\.WebStorm2016.2\Projects\mk2.0\assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -287,7 +508,7 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mk2.0/index.html" />
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mk2.0/assets/index.html" />
     <recent_temporary>
       <list size="1">
         <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
@@ -349,6 +570,7 @@
       <workItem from="1507839431936" duration="205000" />
       <workItem from="1509009119659" duration="13387000" />
       <workItem from="1509392442225" duration="4877000" />
+      <workItem from="1511260542965" duration="10301000" />
     </task>
     <task id="LOCAL-00001" summary="hom section ready, missing logo">
       <created>1485300638581</created>
@@ -487,7 +709,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="291599000" />
+    <option name="totallyTimeSpent" value="301900000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -499,16 +721,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="470" y="178" width="1918" height="1038" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16227607" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.120173365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19290465" sideWeight="0.50212765" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07717391" sideWeight="0.49842396" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30234376" sideWeight="0.49842396" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.335152" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19290465" sideWeight="0.49787235" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23984376" sideWeight="0.49787235" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0032502708" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -586,73 +807,63 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/main-style.css" />
-    <entry file="file://$PROJECT_DIR$/assets/mainstyle.css.map" />
-    <entry file="file://$PROJECT_DIR$/assets/styles.sass" />
-    <entry file="file://$PROJECT_DIR$/assets/font-awesome-4.7.0/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/1_Home/sphere_big .png">
+    <entry file="file://$PROJECT_DIR$/app/images/1_Home/sphere_big .png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/4_Skills/icon_1.png">
+    <entry file="file://$PROJECT_DIR$/app/images/4_Skills/icon_1.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/5_Portfolio/point.png">
+    <entry file="file://$PROJECT_DIR$/app/images/5_Portfolio/point.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/3_Education/point_2.png">
+    <entry file="file://$PROJECT_DIR$/app/images/3_Education/point_2.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/3_Education/point.png">
+    <entry file="file://$PROJECT_DIR$/app/images/3_Education/point.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/4_Skills/dot_point.png">
+    <entry file="file://$PROJECT_DIR$/app/images/4_Skills/dot_point.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/2_About/graphic_element2.png">
+    <entry file="file://$PROJECT_DIR$/app/images/2_About/graphic_element2.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/2_About/graphic_element.png">
+    <entry file="file://$PROJECT_DIR$/app/images/2_About/graphic_element.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/2_About/bg.jpg">
+    <entry file="file://$PROJECT_DIR$/app/images/2_About/bg.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/style.sass" />
-    <entry file="file://$PROJECT_DIR$/assets/images/4_Skills/graphic-element.png">
+    <entry file="file://$PROJECT_DIR$/app/images/4_Skills/graphic-element.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/3_Education/graphi_2.png">
+    <entry file="file://$PROJECT_DIR$/app/images/3_Education/graphi_2.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/3_Education/graphi_1.png">
+    <entry file="file://$PROJECT_DIR$/app/images/3_Education/graphi_1.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -669,7 +880,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/lib/jquery-3.1.1.js" />
-    <entry file="file://$PROJECT_DIR$/assets/images/4_Skills/icon_3.png">
+    <entry file="file://$PROJECT_DIR$/app/images/4_Skills/icon_3.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -681,119 +892,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/5_Portfolio/box_4_on_hover.jpg">
+    <entry file="file://$PROJECT_DIR$/app/images/5_Portfolio/box_4_on_hover.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/5_Portfolio/box_5.jpg">
+    <entry file="file://$PROJECT_DIR$/app/images/5_Portfolio/box_5.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/5_Portfolio/github-code.jpg">
+    <entry file="file://$PROJECT_DIR$/app/images/5_Portfolio/github-code.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/5_Portfolio/box_4.jpg">
+    <entry file="file://$PROJECT_DIR$/app/images/5_Portfolio/box_4.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/5_Portfolio/box_6 .jpg">
+    <entry file="file://$PROJECT_DIR$/app/images/5_Portfolio/box_6 .jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/reset.css">
+    <entry file="file://$PROJECT_DIR$/app/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/logo-m-kurpiewski-kontury.svg">
+    <entry file="file://$PROJECT_DIR$/app/images/logo-m-kurpiewski-kontury.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1955">
           <caret line="115" column="33" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="133" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/logo-m-kurpiewski.svg">
+    <entry file="file://$PROJECT_DIR$/app/images/logo-m-kurpiewski.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/logo.svg">
+    <entry file="file://$PROJECT_DIR$/app/images/logo.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/mainstyle.css">
+    <entry file="file://$PROJECT_DIR$/app/scss/mainstyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1130">
           <caret line="480" column="0" lean-forward="false" selection-start-line="480" selection-start-column="0" selection-end-line="480" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/5_Portfolio/lux-clean.png">
+    <entry file="file://$PROJECT_DIR$/app/images/5_Portfolio/lux-clean.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/5_Portfolio/event-app.jpg">
+    <entry file="file://$PROJECT_DIR$/app/images/5_Portfolio/event-app.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/5_Portfolio/landing-page-event.jpg">
+    <entry file="file://$PROJECT_DIR$/app/images/5_Portfolio/landing-page-event.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/hover/hover.css">
+    <entry file="file://$PROJECT_DIR$/app/css/hover/hover.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1462">
           <caret line="4349" column="0" lean-forward="false" selection-start-line="4349" selection-start-column="0" selection-end-line="4349" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/5_Portfolio/casino-game.png">
+    <entry file="file://$PROJECT_DIR$/app/images/5_Portfolio/casino-game.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/5_Portfolio/casino-game.jpg">
+    <entry file="file://$PROJECT_DIR$/app/images/5_Portfolio/casino-game.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/1_Home/logo.png">
+    <entry file="file://$PROJECT_DIR$/app/images/1_Home/logo.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/6_Contact/log.png">
+    <entry file="file://$PROJECT_DIR$/app/images/6_Contact/log.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/1_Home/twiter.png">
+    <entry file="file://$PROJECT_DIR$/app/images/1_Home/twiter.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/6_Contact/tweet.png">
+    <entry file="file://$PROJECT_DIR$/app/images/6_Contact/tweet.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/lib/jquery-3.2.1.min.js">
+    <entry file="file://$PROJECT_DIR$/app/extras/jquery-3.2.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -801,15 +1012,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xxx.html" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/main-script.js">
+    <entry file="file://$PROJECT_DIR$/app/main-script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="45" column="61" lean-forward="true" selection-start-line="44" selection-start-column="79" selection-end-line="45" selection-end-column="61" />
@@ -817,19 +1020,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="84" column="32" lean-forward="true" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="32" />
+        <state relative-caret-position="17">
+          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/mainstyle.scss">
+    <entry file="file://$PROJECT_DIR$/app/css/mainstyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="804" column="3" lean-forward="false" selection-start-line="804" selection-start-column="3" selection-end-line="804" selection-end-column="3" />
+        <state relative-caret-position="-3620">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1511274201372" expanded="true" signature="3183:3288" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="292" column="9" lean-forward="false" selection-start-line="292" selection-start-column="9" selection-end-line="292" selection-end-column="9" />
+          <folding>
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="58" lean-forward="false" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/_settings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/mainstyle.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="774" column="0" lean-forward="true" selection-start-line="774" selection-start-column="0" selection-end-line="774" selection-end-column="0" />
+          <folding>
+            <element signature="e#3358#4474#0" expanded="false" />
+            <element signature="e#4718#5582#0" expanded="false" />
+            <element signature="e#5810#6705#0" expanded="false" />
+            <element signature="e#6823#8953#0" expanded="false" />
+            <element signature="e#9170#9526#0" expanded="false" />
+            <element signature="e#9546#9615#0" expanded="false" />
+            <element signature="e#9634#10767#0" expanded="false" />
+            <element signature="e#10072#10581#0" expanded="false" />
+            <element signature="e#10972#11181#0" expanded="false" />
+            <element signature="e#11251#13563#0" expanded="false" />
+            <element signature="e#11264#11800#0" expanded="false" />
+            <element signature="e#11927#13487#0" expanded="false" />
+            <element signature="e#13605#14278#0" expanded="false" />
+            <element signature="e#14320#15315#0" expanded="false" />
+            <element signature="e#15357#15660#0" expanded="false" />
+            <element signature="e#15702#15875#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

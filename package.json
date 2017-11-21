@@ -1,0 +1,32 @@
+{
+  "name": "mk2.0",
+  "version": "1.0.0",
+  "description": "website homepage",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "stylus": "^0.54.5"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-changed": "^3.1.1",
+    "gulp-imagemin": "^4.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcin-Kurpiewski/mk2.0.git"
+  },
+  "author": "M.Kurpiewski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marcin-Kurpiewski/mk2.0/issues"
+  },
+  "homepage": "https://github.com/Marcin-Kurpiewski/mk2.0#readme"
+}
