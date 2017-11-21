@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abe560b3-0ee7-47a0-8104-3422f7496b1a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/5_Portfolio/box_git.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/mainstyle.css" afterPath="$PROJECT_DIR$/app/css/mainstyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/mainstyle.scss" afterPath="$PROJECT_DIR$/app/scss/mainstyle.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,21 +21,71 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="258" column="82" lean-forward="false" selection-start-line="257" selection-start-column="13" selection-end-line="258" selection-end-column="82" />
-              <folding>
-                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="258" column="82" lean-forward="false" selection-start-line="257" selection-start-column="13" selection-end-line="258" selection-end-column="82" />
+                  <folding>
+                    <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="mainstyle.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/scss/mainstyle.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="602">
+                  <caret line="711" column="19" lean-forward="false" selection-start-line="711" selection-start-column="19" selection-end-line="711" selection-end-column="19" />
+                  <folding>
+                    <element signature="e#8655#8975#0" expanded="false" />
+                    <element signature="e#9613#10076#0" expanded="false" />
+                    <element signature="e#10423#10608#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="box_2_on_hover.jpg" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/images/5_Portfolio/box_2_on_hover.jpg">
+              <provider selected="true" editor-type-id="images">
+                <state />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="box_3_on_hover.jpg" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/images/5_Portfolio/box_3_on_hover.jpg">
+              <provider selected="true" editor-type-id="images">
+                <state />
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="mainstyle.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/scss/mainstyle.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="714">
+                  <caret line="516" column="3" lean-forward="false" selection-start-line="516" selection-start-column="3" selection-end-line="516" selection-end-column="3" />
+                  <folding>
+                    <element signature="e#8655#8975#0" expanded="false" />
+                    <element signature="e#9613#10076#0" expanded="false" />
+                    <element signature="e#10423#10608#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -69,6 +121,7 @@
       <find>.ski</find>
       <find>sec</find>
       <find>edu</find>
+      <find>port</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -105,8 +158,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/app/scss/mainstyle.scss" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/scss/mainstyle.scss" />
       </list>
     </option>
   </component>
@@ -126,10 +179,10 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-1766" />
-    <option name="y" value="37" />
-    <option name="width" value="1499" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="559" />
+    <option name="y" value="166" />
+    <option name="width" value="1211" />
     <option name="height" value="970" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -164,6 +217,12 @@
               <item name="mk2.0" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mk2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mk2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -185,19 +244,19 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\WebStorm-projects\mk2.0\app" />
-      <recent name="D:\WebStorm-projects\mk2.0" />
-      <recent name="D:\WebStorm-projects\mk2.0\app\CV" />
-      <recent name="D:\WebStorm-projects\mk2.0\app\images\6_Contact" />
-      <recent name="D:\WebStorm-projects\mk2.0\assets\css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WebStorm-projects\mk2.0\assets\lib" />
       <recent name="C:\Users\HP-M\.WebStorm2016.3\Projects\mk2.0\assets" />
       <recent name="C:\Users\HP-M\.WebStorm2016.3\Projects\mk2.0\assets\images\5_Portfolio" />
       <recent name="C:\Users\HP-M\.WebStorm2016.3\Projects\mk2.0\assets\hovver" />
       <recent name="C:\Users\HP-M\.WebStorm2016.3\Projects\mk2.0\assets\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebStorm-projects\mk2.0\app\images\5_Portfolio" />
+      <recent name="D:\WebStorm-projects\mk2.0\app" />
+      <recent name="D:\WebStorm-projects\mk2.0" />
+      <recent name="D:\WebStorm-projects\mk2.0\app\CV" />
+      <recent name="D:\WebStorm-projects\mk2.0\app\images\6_Contact" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -335,7 +394,7 @@
       <workItem from="1509392442225" duration="4877000" />
       <workItem from="1511260542965" duration="11252000" />
       <workItem from="1511288188473" duration="5206000" />
-      <workItem from="1511303102984" duration="314000" />
+      <workItem from="1511303102984" duration="4059000" />
     </task>
     <task id="LOCAL-00001" summary="hom section ready, missing logo">
       <created>1485300638581</created>
@@ -474,7 +533,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="315518000" />
+    <option name="totallyTimeSpent" value="319263000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -486,16 +545,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1766" y="37" width="1499" height="970" extended-state="0" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25941136" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14933018" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19290465" sideWeight="0.50212765" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.335152" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30234376" sideWeight="0.49842396" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33573142" sideWeight="0.49787235" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21875" sideWeight="0.49787235" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0032502708" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -573,21 +632,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/images/5_Portfolio/point.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/images/3_Education/point_2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/images/3_Education/point.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/images/4_Skills/dot_point.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -828,6 +872,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -838,20 +883,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/mainstyle.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2015">
-          <caret line="338" column="36" lean-forward="false" selection-start-line="338" selection-start-column="36" selection-end-line="338" selection-end-column="36" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/app/images/5_Portfolio/box_1_on_hover.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/5_Portfolio/box_2_on_hover.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/5_Portfolio/box_3_on_hover.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
+        <state relative-caret-position="0">
           <caret line="258" column="82" lean-forward="false" selection-start-line="257" selection-start-column="13" selection-end-line="258" selection-end-column="82" />
           <folding>
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/mainstyle.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="711" column="19" lean-forward="false" selection-start-line="711" selection-start-column="19" selection-end-line="711" selection-end-column="19" />
+          <folding>
+            <element signature="e#8655#8975#0" expanded="false" />
+            <element signature="e#9613#10076#0" expanded="false" />
+            <element signature="e#10423#10608#0" expanded="false" />
           </folding>
         </state>
       </provider>

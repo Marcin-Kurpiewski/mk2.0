@@ -383,11 +383,11 @@ header {
       }
     }
     .box1 {
-      background: url("../images/5_Portfolio/github-code.jpg") no-repeat;
+      background: url("../images/5_Portfolio/box_git.png") no-repeat;
       background-size: cover;
     }
     .box2 {
-      background: url("../images/5_Portfolio/landing-page-event.jpg") no-repeat;
+      background: url("../images/5_Portfolio/box_1_on_hover.jpg") no-repeat;
       background-size: cover;
     }
     .box3 {
@@ -449,6 +449,15 @@ header {
   }
   .contact__logo {
     display: block;
+    margin: 0 auto;
+  }
+
+  .contact__box::before {
+    content: '';
+    border-left: 2px solid $white;
+    display: none;
+    height: 200px;
+    width: 0;
     margin: 0 auto;
   }
   .contact__box {
@@ -688,6 +697,25 @@ footer {
       }
     }
   }
+ .contact {
+
+  .contact__box {
+    max-width: 1200px;
+    margin: 2% auto 5% auto;
+    display: flex;
+
+  }
+   .contact__box::before {
+     content: '';
+     border-left: 2px solid $white;
+     display: block;
+     max-height: 150px;
+     margin: 0 auto;
+     position: absolute;
+     right: 50%;
+
+   }
+ }
 }
 
 @media (min-width: 1200px) {
@@ -728,6 +756,3 @@ footer {
     }
   }
 }
-
-
-
