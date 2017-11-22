@@ -25,6 +25,21 @@
   }
 }
 
+@mixin h2-title-desktop {
+  display: block;
+  font-size: 50px;
+  width: auto;
+  max-width: 1800px;
+  margin: 0 auto;
+  padding-top: 2%;
+
+  &::before {
+    display: block;
+    font-size: 140px;
+    //margin-right: -20px;
+  }
+}
+
 body {
   font-family: 'Ubuntu', sans-serif;
   color: $white;
@@ -47,7 +62,7 @@ body {
 
 .home {
   background: url("../images/1_Home/bg.jpg") no-repeat;
-  background-position: center;
+  background-position: top center;
   background-size: cover;
   height: 100vh;
 
@@ -98,6 +113,18 @@ body {
   }
 }
 
+.lin {
+  border-top: 1px solid #fff;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  width: 50px;
+  background: url("../images/1_Home/point.png");
+  background-position: left center;
+  background-size: 100%;
+}
+
 header {
   background-color: #030416;
   opacity: 0.7;
@@ -119,17 +146,17 @@ header {
   }
   .header__box4 {
     display: none;
-    a{
+    a {
       display: none;
     }
   }
-  .header__box1{
+  .header__box1 {
     flex-grow: 1;
   }
   .header__box2 {
-    flex-grow:3;
+    flex-grow: 3;
   }
-  .header__box3{
+  .header__box3 {
     flex-grow: 1;
   }
   .close-nav {
@@ -196,6 +223,7 @@ header {
 
   h2 {
     @include h2-title("01");
+
   }
 
   .about-bg {
@@ -254,8 +282,8 @@ header {
 
 .education {
   background: url("../images/3_Education/graphi_2.png") no-repeat;
-  background-position: 30% top;
-  background-size: 60%;
+  background-position: top center;
+  background-size: 40%;
   background-color: #020424;
 
   h2 {
@@ -357,6 +385,8 @@ header {
   background-position: bottom right;
   h2 {
     @include h2-title("04");
+    display: inline-block;
+    width: 50%;
   }
   .portfolio__box {
     width: 98%;
@@ -671,6 +701,7 @@ footer {
 }
 
 @media (min-width: 992px) {
+
   header {
     justify-content: center;
     div[class*='header__box'] {
@@ -692,14 +723,13 @@ footer {
       //flex-shrink: 3;
       order: 1;
       //flex-grow: .5;
-    width: 5%;
+      width: 5%;
     }
     .header__box2 {
       //flex-shrink: 1;
       //flex-grow: 6.5;
       order: 2;
       width: 35%;
-
 
     }
     .header__box4 {
@@ -724,17 +754,32 @@ footer {
   }
   .social__home {
     display: block;
-    top: 50%;
+    //position: fixed;
+    //top: 50%;
+    //left: 100%;
   }
   .about {
     background-size: 50%;
+
+    h2 {
+      @include h2-title-desktop;
+    }
+
     .about-bg {
+    }
+    &::after {
+      content: '';
+      height: 300px;
+      display: block;
       background: url("../images/2_About/graphic_element.png") no-repeat;
       background-position: bottom center;
       background-size: 100%;
     }
   }
   .education {
+    h2 {
+      @include h2-title-desktop;
+    }
     .education-bg {
       background: url("../images/3_Education/graphi_1.png") no-repeat;
       background-position: bottom right;
@@ -745,8 +790,10 @@ footer {
   .skills {
     background: url("../images/4_Skills/graphic-element.png") no-repeat;
     background-position: bottom center;
-    background-size: 60%;
-
+    background-size: 30%;
+    h2 {
+      @include h2-title-desktop;
+    }
     .skills_container {
       max-width: $max-width-1200;
       flex-direction: row;
@@ -757,7 +804,10 @@ footer {
   .portfolio {
     background: url("../images/5_Portfolio/graphic_element_porto_1.png") no-repeat;
     background-position: bottom right;
-    background-size: 50%;
+    background-size: 20%;
+    h2 {
+      @include h2-title-desktop;
+    }
     .portfolio__box {
       max-width: $max-width-1200;
       ul {
@@ -770,6 +820,9 @@ footer {
   }
   .contact {
 
+    h2 {
+      @include h2-title-desktop;
+    }
     .contact__box {
       max-width: 1200px;
       margin: 2% auto 5% auto;
@@ -792,7 +845,6 @@ footer {
 @media (min-width: 1200px) {
   .about {
     .about-bg {
-      padding-bottom: 5%;
       .about-img {
         max-width: $max-width-1200/2;
         .download__btn {
