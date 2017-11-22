@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abe560b3-0ee7-47a0-8104-3422f7496b1a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/5_Portfolio/box_git.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/5_Portfolio/graphic_element_p1.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/mainstyle.css" afterPath="$PROJECT_DIR$/app/css/mainstyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/_settings.scss" afterPath="$PROJECT_DIR$/app/scss/_settings.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/mainstyle.scss" afterPath="$PROJECT_DIR$/app/scss/mainstyle.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,69 +23,68 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.321513">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="258" column="82" lean-forward="false" selection-start-line="257" selection-start-column="13" selection-end-line="258" selection-end-column="82" />
+                <state relative-caret-position="298">
+                  <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="40" />
                   <folding>
-                    <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#a#0;n#div#0;n#header#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#img#0;n#a#0;n#div#0;n#header#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#img#0;n#a#1;n#div#0;n#header#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#1;n#header#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#nav#0;n#div#1;n#header#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#2;n#header#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#i#0;n#a#0;n#div#2;n#header#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#3;n#header#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="mainstyle.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/scss/mainstyle.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="602">
-                  <caret line="711" column="19" lean-forward="false" selection-start-line="711" selection-start-column="19" selection-end-line="711" selection-end-column="19" />
-                  <folding>
-                    <element signature="e#8655#8975#0" expanded="false" />
-                    <element signature="e#9613#10076#0" expanded="false" />
-                    <element signature="e#10423#10608#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="box_2_on_hover.jpg" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/images/5_Portfolio/box_2_on_hover.jpg">
-              <provider selected="true" editor-type-id="images">
-                <state />
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="box_3_on_hover.jpg" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/images/5_Portfolio/box_3_on_hover.jpg">
-              <provider selected="true" editor-type-id="images">
-                <state />
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="mainstyle.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/scss/mainstyle.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="714">
-                  <caret line="516" column="3" lean-forward="false" selection-start-line="516" selection-start-column="3" selection-end-line="516" selection-end-column="3" />
-                  <folding>
-                    <element signature="e#8655#8975#0" expanded="false" />
-                    <element signature="e#9613#10076#0" expanded="false" />
-                    <element signature="e#10423#10608#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
+        <splitter split-orientation="horizontal" split-proportion="0.5">
+          <split-first>
+            <leaf>
+              <file leaf-file-name="mainstyle.scss" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/app/scss/mainstyle.scss">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="358">
+                      <caret line="682" column="15" lean-forward="false" selection-start-line="682" selection-start-column="15" selection-end-line="682" selection-end-column="15" />
+                      <folding>
+                        <element signature="e#9868#10331#0" expanded="false" />
+                        <element signature="e#10678#10863#0" expanded="false" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf>
+              <file leaf-file-name="mainstyle.scss" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/app/scss/mainstyle.scss">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="578">
+                      <caret line="136" column="15" lean-forward="false" selection-start-line="136" selection-start-column="15" selection-end-line="136" selection-end-column="15" />
+                      <folding>
+                        <element signature="e#9868#10331#0" expanded="false" />
+                        <element signature="e#10678#10863#0" expanded="false" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
       </split-second>
     </splitter>
   </component>
@@ -120,9 +121,13 @@
       <find>.edu__box</find>
       <find>.ski</find>
       <find>sec</find>
-      <find>edu</find>
       <find>port</find>
+      <find>edu</find>
+      <find>992</find>
     </findStrings>
+    <replaceStrings>
+      <replace>logo_box</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -152,12 +157,12 @@
         <option value="$PROJECT_DIR$/assets/scss/mainstyle.scss" />
         <option value="$PROJECT_DIR$/assets/scss/_settings.scss" />
         <option value="$PROJECT_DIR$/assets/index.html" />
-        <option value="$PROJECT_DIR$/app/scss/_settings.scss" />
         <option value="$PROJECT_DIR$/app/main-script.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/app/scss/_settings.scss" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/scss/mainstyle.scss" />
       </list>
@@ -180,8 +185,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="559" />
-    <option name="y" value="166" />
+    <option name="x" value="1179" />
     <option name="width" value="1211" />
     <option name="height" value="970" />
   </component>
@@ -221,6 +225,26 @@
               <item name="mk2.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="mk2.0" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mk2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mk2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="1_Home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mk2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mk2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="5_Portfolio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mk2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mk2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -245,11 +269,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WebStorm-projects\mk2.0\app\images\5_Portfolio" />
       <recent name="D:\WebStorm-projects\mk2.0\assets\lib" />
       <recent name="C:\Users\HP-M\.WebStorm2016.3\Projects\mk2.0\assets" />
       <recent name="C:\Users\HP-M\.WebStorm2016.3\Projects\mk2.0\assets\images\5_Portfolio" />
       <recent name="C:\Users\HP-M\.WebStorm2016.3\Projects\mk2.0\assets\hovver" />
-      <recent name="C:\Users\HP-M\.WebStorm2016.3\Projects\mk2.0\assets\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WebStorm-projects\mk2.0\app\images\5_Portfolio" />
@@ -394,7 +418,7 @@
       <workItem from="1509392442225" duration="4877000" />
       <workItem from="1511260542965" duration="11252000" />
       <workItem from="1511288188473" duration="5206000" />
-      <workItem from="1511303102984" duration="4059000" />
+      <workItem from="1511303102984" duration="18139000" />
     </task>
     <task id="LOCAL-00001" summary="hom section ready, missing logo">
       <created>1485300638581</created>
@@ -533,7 +557,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="319263000" />
+    <option name="totallyTimeSpent" value="333343000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -548,7 +572,7 @@
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14933018" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14933018" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19290465" sideWeight="0.50212765" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.335152" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -868,18 +892,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/_settings.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/css/mainstyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -898,12 +915,27 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/_settings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="258" column="82" lean-forward="false" selection-start-line="257" selection-start-column="13" selection-end-line="258" selection-end-column="82" />
+        <state relative-caret-position="298">
+          <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="40" />
           <folding>
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a#0;n#div#0;n#header#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#img#0;n#a#0;n#div#0;n#header#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#img#0;n#a#1;n#div#0;n#header#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#header#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#div#1;n#header#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#header#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#i#0;n#a#0;n#div#2;n#header#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#header#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -911,12 +943,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/mainstyle.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="711" column="19" lean-forward="false" selection-start-line="711" selection-start-column="19" selection-end-line="711" selection-end-column="19" />
+        <state relative-caret-position="358">
+          <caret line="682" column="15" lean-forward="false" selection-start-line="682" selection-start-column="15" selection-end-line="682" selection-end-column="15" />
           <folding>
-            <element signature="e#8655#8975#0" expanded="false" />
-            <element signature="e#9613#10076#0" expanded="false" />
-            <element signature="e#10423#10608#0" expanded="false" />
+            <element signature="e#9868#10331#0" expanded="false" />
+            <element signature="e#10678#10863#0" expanded="false" />
           </folding>
         </state>
       </provider>

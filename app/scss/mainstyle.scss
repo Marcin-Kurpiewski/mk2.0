@@ -105,15 +105,32 @@ header {
   width: 100%;
   z-index: 100;
   display: flex;
-  justify-content: space-around;
-
+  justify-content: center;
+  align-items: flex-start;
   div[class*='header__box'] {
     text-align: center;
     padding: 2% 0;
-    width: 20%;
+    //flex-grow: 2;
+    align-self: flex-start;
+
+  }
+  .btn__logo__desktop {
+    display: none;
+  }
+  .header__box4 {
+    display: none;
+    a{
+      display: none;
+    }
+  }
+  .header__box1{
+    flex-grow: 1;
   }
   .header__box2 {
-    width: 60%;
+    flex-grow:3;
+  }
+  .header__box3{
+    flex-grow: 1;
   }
   .close-nav {
     display: none;
@@ -237,8 +254,8 @@ header {
 
 .education {
   background: url("../images/3_Education/graphi_2.png") no-repeat;
-  background-position: 20% top;
-  background-size: 80%;
+  background-position: 30% top;
+  background-size: 60%;
   background-color: #020424;
 
   h2 {
@@ -251,6 +268,7 @@ header {
     display: block;
     max-width: $max-width-1200;
     margin: 0 auto;
+
     .edu__box {
       margin: 10% 5%;
       display: flex;
@@ -423,7 +441,7 @@ header {
 
 .contact {
   background: url("../images/6_Contact/bg.jpg") no-repeat;
-  background-size: 200%;
+  background-size: 100%;
   background-position: bottom left;
   h2 {
     @include h2-title("05");
@@ -654,17 +672,47 @@ footer {
 
 @media (min-width: 992px) {
   header {
-    justify-content: space-between;
+    justify-content: center;
     div[class*='header__box'] {
-      padding: 2% 0;
+      padding: 1% 0;
+      align-self: center;
     }
-    .header__box1, .header__box3 {
-      flex-shrink: 3;
+    .header__box1 {
+      order: 3;
+      //flex-grow: 4;
+      width: 20%;
+      .btn__logo__desktop {
+        display: block;
+        img {
+          max-width: 130px;
+        }
+      }
+    }
+    .header__box3 {
+      //flex-shrink: 3;
+      order: 1;
+      //flex-grow: .5;
+    width: 5%;
     }
     .header__box2 {
-      flex-shrink: 1;
-      flex-grow: 5;
+      //flex-shrink: 1;
+      //flex-grow: 6.5;
+      order: 2;
+      width: 35%;
+
+
     }
+    .header__box4 {
+      display: flex;
+      justify-content: flex-end;
+      order: 3;
+      //flex-grow: 8;
+      width: 40%;
+    }
+    .btn__logo__mobile {
+      display: none;
+    }
+
     nav ul {
       height: 100%;
       li {
@@ -678,7 +726,27 @@ footer {
     display: block;
     top: 50%;
   }
+  .about {
+    background-size: 50%;
+    .about-bg {
+      background: url("../images/2_About/graphic_element.png") no-repeat;
+      background-position: bottom center;
+      background-size: 100%;
+    }
+  }
+  .education {
+    .education-bg {
+      background: url("../images/3_Education/graphi_1.png") no-repeat;
+      background-position: bottom right;
+      background-size: 50%;
+
+    }
+  }
   .skills {
+    background: url("../images/4_Skills/graphic-element.png") no-repeat;
+    background-position: bottom center;
+    background-size: 60%;
+
     .skills_container {
       max-width: $max-width-1200;
       flex-direction: row;
@@ -687,6 +755,9 @@ footer {
     }
   }
   .portfolio {
+    background: url("../images/5_Portfolio/graphic_element_porto_1.png") no-repeat;
+    background-position: bottom right;
+    background-size: 50%;
     .portfolio__box {
       max-width: $max-width-1200;
       ul {
@@ -697,25 +768,25 @@ footer {
       }
     }
   }
- .contact {
+  .contact {
 
-  .contact__box {
-    max-width: 1200px;
-    margin: 2% auto 5% auto;
-    display: flex;
+    .contact__box {
+      max-width: 1200px;
+      margin: 2% auto 5% auto;
+      display: flex;
 
+    }
+    .contact__box::before {
+      content: '';
+      border-left: 2px solid $white;
+      display: block;
+      max-height: 150px;
+      margin: 0 auto;
+      position: absolute;
+      right: 50%;
+
+    }
   }
-   .contact__box::before {
-     content: '';
-     border-left: 2px solid $white;
-     display: block;
-     max-height: 150px;
-     margin: 0 auto;
-     position: absolute;
-     right: 50%;
-
-   }
- }
 }
 
 @media (min-width: 1200px) {
