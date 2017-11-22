@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abe560b3-0ee7-47a0-8104-3422f7496b1a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/2_About/photo1.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/mainstyle.css" afterPath="$PROJECT_DIR$/app/css/mainstyle.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/mainstyle.scss" afterPath="$PROJECT_DIR$/app/scss/mainstyle.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,8 +26,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="174" column="42" lean-forward="false" selection-start-line="174" selection-start-column="42" selection-end-line="174" selection-end-column="42" />
+                <state relative-caret-position="253">
+                  <caret line="68" column="23" lean-forward="false" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
                   <folding>
                     <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#header#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -40,11 +39,10 @@
                     <element signature="n#div#2;n#header#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#i#0;n#a#0;n#div#2;n#header#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#3;n#header#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -222,7 +220,7 @@
               <item name="mk2.0" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="1_Home" type="462c0819:PsiDirectoryNode" />
+              <item name="2_About" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mk2.0" type="b2602c69:ProjectViewProjectNode" />
@@ -252,11 +250,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WebStorm-projects\mk2.0\app\images\2_About" />
       <recent name="D:\WebStorm-projects\mk2.0\app\images\5_Portfolio" />
       <recent name="D:\WebStorm-projects\mk2.0\assets\lib" />
       <recent name="C:\Users\HP-M\.WebStorm2016.3\Projects\mk2.0\assets" />
       <recent name="C:\Users\HP-M\.WebStorm2016.3\Projects\mk2.0\assets\images\5_Portfolio" />
-      <recent name="C:\Users\HP-M\.WebStorm2016.3\Projects\mk2.0\assets\hovver" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WebStorm-projects\mk2.0\app\images\5_Portfolio" />
@@ -401,7 +399,7 @@
       <workItem from="1509392442225" duration="4877000" />
       <workItem from="1511260542965" duration="11252000" />
       <workItem from="1511288188473" duration="5206000" />
-      <workItem from="1511303102984" duration="25781000" />
+      <workItem from="1511303102984" duration="26641000" />
     </task>
     <task id="LOCAL-00001" summary="hom section ready, missing logo">
       <created>1485300638581</created>
@@ -540,7 +538,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="340985000" />
+    <option name="totallyTimeSpent" value="341845000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -919,8 +917,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="174" column="42" lean-forward="false" selection-start-line="174" selection-start-column="42" selection-end-line="174" selection-end-column="42" />
+        <state relative-caret-position="253">
+          <caret line="68" column="23" lean-forward="false" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
           <folding>
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#header#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -932,11 +930,10 @@
             <element signature="n#div#2;n#header#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#i#0;n#a#0;n#div#2;n#header#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#header#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
