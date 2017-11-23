@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('.nav-item').click(
+    $('.nav--item').click(
         function (event) {
             event.preventDefault();
             $('html, body').animate({
@@ -10,15 +10,15 @@ $(document).ready(function () {
 
     function burgerMenu() {
 
-        var menuElem = document.getElementById('brg_nav'),
-            nav_btn = document.getElementById('btnx');
+        var menuElem = document.getElementById('main_nav'),
+            nav_btn = document.getElementById('btn-close');
             console.log(nav_btn);
         event.preventDefault();
-        if (menuElem.className === 'close-nav') {
-            menuElem.className = 'open-nav';
+        if (menuElem.className === 'close--nav') {
+            menuElem.className = 'open--nav';
             nav_btn.className = 'fa fa-times fa-3x';
         } else {
-            menuElem.className = 'close-nav';
+            menuElem.className = 'close--nav';
             nav_btn.className = 'fa fa-bars fa-3x';
         }
 

@@ -7,44 +7,15 @@
   src: url("../extras/font/Ubuntu-Medium.ttf");
 }
 
-@mixin h2-title($sectionNumber) {
-
-  font-size: $font-size * 2;
-  color: $grey;
-  letter-spacing: -1px;
-  text-align: right;
-  padding: 5% 5% 0 0;
-
-  &::before {
-    content: $sectionNumber;
-    color: $blue;
-    font-weight: bold;
-    display: inline-block;
-    position: relative;
-    margin-right: 10px;
-  }
-}
-
-@mixin h2-title-desktop {
-  display: block;
-  font-size: 50px;
-  width: auto;
-  max-width: 1800px;
-  margin: 0 auto;
-  padding-top: 2%;
-
-  &::before {
-    display: block;
-    font-size: 140px;
-    //margin-right: -20px;
-  }
-}
-
 body {
   font-family: 'Ubuntu', sans-serif;
   color: $white;
   background-color: $blue-dark;
   width: 100%;
+}
+
+.fa {
+  color: $white;
 }
 
 .bg1 {
@@ -93,36 +64,28 @@ body {
       right: 28px;
       border-radius: 50px;
     }
+    .name {
+      display: none;
+    }
     .span_1 {
       display: block;
       position: relative;
       top: calc(50% - 29px);
       left: 35px;
-      .span_2 {
-        border-top: 1px solid $white;
-        padding-top: 3px;
-      }
-      .span_3 {
-        border-bottom: 1px solid $white;
-        padding-bottom: 5px;
-      }
     }
+    .span_2 {
+      border-top: 1px solid $white;
+      padding-top: 3px;
+    }
+    .span_3 {
+      border-bottom: 1px solid $white;
+      padding-bottom: 5px;
+    }
+
     .span_1:nth-child(2n) {
       font-weight: bold;
     }
   }
-}
-
-.lin {
-  border-top: 1px solid #fff;
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 70%;
-  width: 50px;
-  background: url("../images/1_Home/point.png");
-  background-position: left center;
-  background-size: 100%;
 }
 
 header {
@@ -134,38 +97,42 @@ header {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  div[class*='header__box'] {
+  div[class*='box__'] {
     text-align: center;
     padding: 2% 0;
-    //flex-grow: 2;
     align-self: flex-start;
 
   }
-  .btn__logo__desktop {
+  .btn--desktop {
     display: none;
   }
-  .header__box4 {
+  .box__lang {
     display: none;
     a {
       display: none;
     }
   }
-  .header__box1 {
+  .box__logo {
     flex-grow: 1;
   }
-  .header__box2 {
+  .box__nav {
     flex-grow: 3;
   }
-  .header__box3 {
+  .box__btn {
     flex-grow: 1;
   }
-  .close-nav {
+  .close--nav {
     display: none;
     height: 0px;
     opacity: 0;
     width: 100%;
   }
-  .open-nav {
+  nav {
+    h2 {
+      display: none;
+    }
+  }
+  .open--nav {
     height: 100%;
     width: 100%;
     opacity: 1;
@@ -177,7 +144,7 @@ header {
       }
     }
   }
-  .nav-item {
+  .nav--item {
     height: 100%;
     text-decoration: none;
     color: $white;
@@ -186,29 +153,25 @@ header {
     line-height: 1.75;
     cursor: pointer;
   }
-  .btn__logo__mobile {
-    .logo__mobile {
+  .btn--mobile {
+    img {
       max-width: 41.14px;
     }
   }
 }
 
-.burger__btn {
+.btn--burger {
   height: 50px;
   cursor: pointer;
 }
 
-.fa {
-  color: $white;
-}
-
 .social__home {
   display: none;
-  .social__bar {
+  ul {
     position: absolute;
     top: calc(50% - 96px);
     left: calc(100% - 64px);
-    .social__bar__item {
+    .social--item {
       padding: 32px 32px 0 0;
       & :hover {
         color: $blue;
@@ -223,7 +186,6 @@ header {
 
   h2 {
     @include h2-title("01");
-
   }
 
   .about-bg {
@@ -232,49 +194,51 @@ header {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    .about-img {
-      flex-basis: 100%;
-      margin-top: 15%;
-      .main-photo {
-        max-width: 50%;
-        display: block;
-        margin: 5% auto;
-      }
-    }
-    .download__btn {
+  }
+  .about-img {
+    flex-basis: 100%;
+    margin-top: 15%;
+    .main-photo {
+      max-width: 50%;
       display: block;
-      text-decoration: none;
-      text-transform: uppercase;
-      color: $blue;
-      font-size: $font-size;
-      font-weight: bold;
-      text-align: center;
-      margin-top: 15%;
-      &:hover {
-        color: $grey;
-      }
-      img {
-        display: block;
-        max-width: 20%;
-        margin: 15% auto;
-      }
+      margin: 5% auto;
     }
-    .about__list {
-      width: 90%;
-      dl {
-        margin-bottom: 15%;
-        max-width: 960px;
-        dt, dd {
-          display: inline-block;
-          width: 40%;
-          line-height: 2;
-          color: $grey-dark;
-          font-weight: bold;
-        }
-        dd {
-          width: 55%;
-          text-align: right;
-        }
+  }
+
+  .download__btn {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $white;
+    font-size: $font-size;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15%;
+    &:hover {
+      color: $blue;
+    }
+    img {
+      display: block;
+      max-width: 20%;
+      margin: 15% auto;
+    }
+  }
+
+  .about__list {
+    width: 90%;
+    dl {
+      margin-bottom: 15%;
+      max-width: 960px;
+      dt, dd {
+        display: inline-block;
+        width: 40%;
+        line-height: 2;
+        color: $grey-dark;
+        font-weight: bold;
+      }
+      dd {
+        width: 55%;
+        text-align: right;
       }
     }
   }
@@ -284,7 +248,7 @@ header {
   background: url("../images/3_Education/graphi_2.png") no-repeat;
   background-position: top center;
   background-size: 40%;
-  background-color: #020424;
+  //background-color: #020424;
 
   h2 {
     @include h2-title("02");
@@ -296,38 +260,38 @@ header {
     display: block;
     max-width: $max-width-1200;
     margin: 0 auto;
-
-    .edu__box {
-      margin: 10% 5%;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      .edu_img {
-        width: 20%;
-        img {
-          max-width: 65%;
-        }
+  }
+  .box__edu {
+    margin: 10% 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    .edu--img {
+      width: 20%;
+      img {
+        max-width: 55%;
       }
-      .edu__txt {
-        width: 80%;
-        h3, p {
-          font-size: $font-size;
-          line-height: 1.5;
-          letter-spacing: -10;
-          color: #cecece;
-          font-weight: bold;
-          width: 100%;
-          text-align: right;
-          margin: 0;
-          padding: 0;
-        }
-        p {
-          color: $blue;
-        }
+    }
+    .edu--txt {
+      width: 80%;
+      h3, p {
+        font-size: $font-size + 4;
+        line-height: 1.5;
+        letter-spacing: -10;
+        color: #cecece;
+        font-weight: bold;
+        width: 100%;
+        text-align: right;
+        margin: 0;
+        padding: 0;
+      }
+      p {
+        color: $blue;
       }
     }
   }
+
 }
 
 .skills {
@@ -385,89 +349,100 @@ header {
   background-position: bottom right;
   h2 {
     @include h2-title("04");
-    display: inline-block;
-    width: 50%;
   }
   .portfolio__box {
     width: 98%;
     margin: 5% auto;
     text-align: center;
-    .port_list {
+    .port--list {
       margin: 0 auto;
       width: 90%;
-      .port__item {
-        display: flex;
-        flex-direction: column;
-      }
-      h3 {
-        font-size: $font-size +5;
-        line-height: 5;
-      }
-      ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 225px;
-        justify-content: center;
-        li {
-          line-height: $font-size + 10;
-          a {
-            text-decoration: none;
-            color: $white;
-            font-size: $font-size;
-            letter-spacing: 2px;
-          }
-        }
-        li:nth-child(2n) {
-          background: url("../images/5_Portfolio/point_sm.png") no-repeat;
-          background-size: cover;
-          width: 22px;
-          height: 22px;
-          margin: 5% 0;
-        }
-      }
-      .port__item > * {
-        margin: 5%;
-      }
-    }
-    .box1 {
-      background: url("../images/5_Portfolio/box_git.png") no-repeat;
-      background-size: cover;
-    }
-    .box2 {
-      background: url("../images/5_Portfolio/box_1_on_hover.jpg") no-repeat;
-      background-size: cover;
-    }
-    .box3 {
-      background: url("../images/5_Portfolio/event-app.jpg") no-repeat;
-      background-size: cover;
-    }
-    .box4 {
-      background: url("../images/5_Portfolio/lux-clean.png") no-repeat;
-      background-size: cover;
-    }
-    .box5 {
-      background: url("../images/5_Portfolio/casino-game.png") no-repeat;
-      background-size: cover;
-      opacity: 0.5;
-    }
-    .box6 {
-      background: url("../images/5_Portfolio/maxstudio-wp.jpg") no-repeat;
-      background-size: cover;
-    }
-    .box7 {
-      background: url("../images/5_Portfolio/box_7.jpg") no-repeat;
-      background-size: cover;
-    }
-    .box8 {
-      background: url("../images/5_Portfolio/box_8.jpg") no-repeat;
-      background-size: $bg-cover;
-    }
-    .box7, .box8 {
-      display: none;
+      //.port--item {
+      //  display: flex;
+      //  flex-direction: column;
+      //}
     }
   }
+  .port--item {
+    h3 {
+      font-size: $font-size +5;
+      line-height: 5;
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 225px;
+      justify-content: center;
+      li {
+        line-height: $font-size + 10;
+        a {
+          text-decoration: none;
+          color: $white;
+          font-size: $font-size;
+          letter-spacing: 2px;
+        }
+      }
+      li:nth-child(2n) {
+        background: url("../images/5_Portfolio/point_sm.png") no-repeat;
+        background-size: cover;
+        width: 22px;
+        height: 22px;
+        margin: 5% 0;
+      }
+    }
+   // .port--item > * {
+   //  margin: 5%;
+   //}
 }
+
+.box1 {
+  background: url("../images/5_Portfolio/box_git.png") no-repeat;
+  background-size: cover;
+}
+
+.box2 {
+  background: url("../images/5_Portfolio/box_1_on_hover.jpg") no-repeat;
+  background-size: cover;
+}
+
+.box3 {
+  background: url("../images/5_Portfolio/event-app.jpg") no-repeat;
+  background-size: cover;
+}
+
+.box4 {
+  background: url("../images/5_Portfolio/lux-clean.png") no-repeat;
+  background-size: cover;
+}
+
+.box5 {
+  background: url("../images/5_Portfolio/casino-game.png") no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.box6 {
+  background: url("../images/5_Portfolio/maxstudio-wp.jpg") no-repeat;
+  background-size: cover;
+}
+
+.box7 {
+  background: url("../images/5_Portfolio/box_7.jpg") no-repeat;
+  background-size: cover;
+}
+
+.box8 {
+  background: url("../images/5_Portfolio/box_8.jpg") no-repeat;
+  background-size: $bg-cover;
+}
+
+.box7, .box8 {
+  display: none;
+}
+
+}
+
 
 .contact {
   background: url("../images/6_Contact/bg.jpg") no-repeat;
@@ -625,7 +600,7 @@ footer {
   }
   .education {
     .education-bg {
-      .edu__box {
+      .box__edu {
         margin: 5% 20% 10% 20%;
       }
     }
@@ -640,59 +615,8 @@ footer {
       }
     }
   }
-  .portfolio {
 
-    .hvr-shutter-in-horizontal {
-      display: inline-block;
-      vertical-align: middle;
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      box-shadow: 0 0 1px transparent;
-      position: relative;
-      background-color: #050515;
-      -webkit-transition-property: color;
-      transition-property: color;
-      -webkit-transition-duration: 0.3s;
-      transition-duration: 0.3s;
-      opacity: 0.5;
-      margin: 0 auto;
-    }
 
-    .hvr-shutter-in-horizontal:before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background-color: #050515;
-      -webkit-transform: scaleX(1);
-      transform: scaleX(1);
-      -webkit-transform-origin: 50%;
-      transform-origin: 50%;
-      -webkit-transition-property: transform;
-      transition-property: transform;
-      -webkit-transition-duration: 0.3s;
-      transition-duration: 0.3s;
-      -webkit-transition-timing-function: ease-out;
-      transition-timing-function: ease-out;
-
-    }
-
-    .hvr-shutter-in-horizontal:hover, .hvr-shutter-in-horizontal:focus, .hvr-shutter-in-horizontal:active {
-      color: #fff;
-
-    }
-
-    .hvr-shutter-in-horizontal:hover:before, .hvr-shutter-in-horizontal:focus:before, .hvr-shutter-in-horizontal:active:before {
-      -webkit-transform: scaleX(0);
-      transform: scaleX(0);
-    }
-    //h3, a {
-    //  font-size: 26px;
-    //}
-  }
   .contact {
     .contact__item {
       width: 80%;
@@ -704,42 +628,36 @@ footer {
 
   header {
     justify-content: center;
-    div[class*='header__box'] {
+    div[class*='box__'] {
       padding: 1% 0;
       align-self: center;
     }
-    .header__box1 {
+    .box__logo {
       order: 3;
-      //flex-grow: 4;
       width: 20%;
-      .btn__logo__desktop {
+      .btn--desktop {
         display: block;
         img {
           max-width: 130px;
         }
       }
     }
-    .header__box3 {
-      //flex-shrink: 3;
+    .box__btn {
       order: 1;
-      //flex-grow: .5;
       width: 5%;
     }
-    .header__box2 {
-      //flex-shrink: 1;
-      //flex-grow: 6.5;
+    .box__nav {
       order: 2;
       width: 35%;
 
     }
-    .header__box4 {
+    .box__lang {
       display: flex;
       justify-content: flex-end;
       order: 3;
-      //flex-grow: 8;
       width: 40%;
     }
-    .btn__logo__mobile {
+    .btn--mobile {
       display: none;
     }
 
@@ -754,9 +672,7 @@ footer {
   }
   .social__home {
     display: block;
-    //position: fixed;
-    //top: 50%;
-    //left: 100%;
+
   }
   .about {
     background-size: 50%;
@@ -812,7 +728,7 @@ footer {
       max-width: $max-width-1200;
       ul {
         padding-bottom: 5%;
-        .port_list {
+        .port--list {
           width: 48%;
         }
       }
@@ -825,9 +741,9 @@ footer {
     }
     .contact__box {
       max-width: 1200px;
-      margin: 2% auto 5% auto;
       display: flex;
-
+      margin: 2% auto 0 auto;
+      padding-bottom: 2%;
     }
     .contact__box::before {
       content: '';
@@ -864,7 +780,7 @@ footer {
     }
   }
   .education {
-    .edu__box {
+    .box__edu {
       max-width: $max-width-1200;
     }
   }
@@ -872,7 +788,7 @@ footer {
   .portfolio {
     .portfolio__box {
       ul {
-        .port_list {
+        .port--list {
           width: 23%;
         }
       }
