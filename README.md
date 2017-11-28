@@ -1,4 +1,4 @@
-# mkurpiewski.com version 2.0
+# [mkurpiewski.com version 2.0](http://mkurpiewski.com/)
 [![mkurpiewski.com](http://mkurpiewski.com/assets/images/mkurpiewskicom.jpg)](http://mkurpiewski.com/)
 # Html5, CSS3, Sass(Scss), js, jQ.
 # Mobile first.
@@ -9,6 +9,7 @@
 # --> Feature <--
 # 5. Dynamic gallery of portfolio //
 # 6. Second main background color //
-# 7. Chice of page language //
+# 7. Multi-language //
+# 8. Preloader - spinner //
 # ...
 # [mkurpiewski.com-2.0](http://mkurpiewski.com/)
