@@ -375,7 +375,6 @@ nav {
   display: inline-block;
   width: 100%;
   padding-bottom: 5%;
-  background-size: cover;
 
 }
 
@@ -383,7 +382,7 @@ nav {
   .port--heading {
     font-size: $font-size +5;
     line-height: 5;
-    &::first-letter{
+    &::first-letter {
       text-transform: uppercase;
 
     }
@@ -413,46 +412,45 @@ nav {
   }
 }
 
-
 .box1 {
-  background: url("../images/5_Portfolio/Nowy folder/github.jpg") no-repeat;
-
+  background: url("../images/5_Portfolio/github.jpg") no-repeat;
+  background-size: cover;
 }
 
 .box2 {
-  background: url("../images/5_Portfolio/Nowy folder/bitbucket.jpg") no-repeat;
-
+  background: url("../images/5_Portfolio/bitbucket.jpg") no-repeat;
+  background-size: cover;
 }
 
 .box3 {
-  background: url("../images/5_Portfolio/Nowy folder/barista.jpg") no-repeat;
-
+  background: url("../images/5_Portfolio/barista.jpg") no-repeat;
+  background-size: cover;
 }
 
 .box4 {
-  background: url("../images/5_Portfolio/Nowy folder/maxstudio.jpg") no-repeat;
-
+  background: url("../images/5_Portfolio/maxstudio.jpg") no-repeat;
+  background-size: cover;
 }
 
 .box5 {
-  background: url("../images/5_Portfolio/Nowy folder/lux-clean.jpg") no-repeat;
-
+  background: url("../images/5_Portfolio/lux-clean.jpg") no-repeat;
+  background-size: cover;
 
 }
 
 .box6 {
-  background: url("../images/5_Portfolio/Nowy folder/event-landing.jpg") no-repeat;
-
+  background: url("../images/5_Portfolio/event-landing.jpg") no-repeat;
+  background-size: cover;
 }
 
 .box7 {
-  background: url("../images/5_Portfolio/Nowy folder/event-app.jpg") no-repeat;
-
+  background: url("../images/5_Portfolio/event-app.jpg") no-repeat;
+  background-size: cover;
 }
 
 .box8 {
-  background: url("../images/5_Portfolio/Nowy folder/casino-game.jpg") no-repeat;
-
+  background: url("../images/5_Portfolio/casino-game.jpg") no-repeat;
+  background-size: cover;
 }
 
 .contact {

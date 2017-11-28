@@ -26,7 +26,7 @@ gulp.task('sass', function () {
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
         .pipe(autoprefixer({
-            browsers: ['last 3 versions']
+            browsers: ['last 5 versions']
         }))
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('app/css'))
