@@ -1,9 +1,14 @@
 # mkurpiewski.com version 2.0
-[![mkurpiewski.com](http://mkurpiewski.com/assets/images/mkurpiewskicom.jpg)](https://marcin-kurpiewski.github.io/mkurpiewski.com-2.0)
+[![mkurpiewski.com](http://mkurpiewski.com/assets/images/mkurpiewskicom.jpg)](http://mkurpiewski.com/)
 # Html5, CSS3, Sass(Scss), js, jQ.
 # Mobile first.
 # 1. Phone version. // 100%
 # 2. Tablet horizontal and landspace. // 100%
 # 3. Laptop. // 100%
-# 4. Desktop. // --> work in progres 95% 
-# [mkurpiewski.com-2.0](https://marcin-kurpiewski.github.io/mkurpiewski.com-2.0/)
+# 4. Desktop. // 100%
+# --> Feature <--
+# 5. Dynamic gallery of portfolio //
+# 6. Second main background color //
+# 7. Chice of page language //
+# ...
+# [mkurpiewski.com-2.0](http://mkurpiewski.com/)
