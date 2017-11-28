@@ -12,7 +12,7 @@ $(document).ready(function () {
 
         var menuElem = document.getElementById('main_nav'),
             nav_btn = document.getElementById('btn-close');
-            console.log(nav_btn);
+            // console.log(nav_btn);
         event.preventDefault();
         if (menuElem.className === 'close--nav') {
             menuElem.className = 'open--nav';
@@ -98,11 +98,11 @@ function portfolioTemplate(data){
         ul.appendChild(li2);
 
         var li3 = document.createElement('li'),
-            img= document.createElement('img');
+            // img= document.createElement('img');
         li3.setAttribute('class', 'point');
-        img.setAttribute('src', 'images/5_Portfolio/point_sm.png');
-        img.setAttribute('class', 'point');
-        li3.appendChild(img);
+        // img.setAttribute('src', 'images/5_Portfolio/point_sm.png');
+        // img.setAttribute('class', 'point');
+        // li3.appendChild(img);
         ul.appendChild(li3);
 
         var li4 = document.createElement('li');
@@ -124,6 +124,4 @@ function portfolioTemplate(data){
 
 
     }
-
-
 }
