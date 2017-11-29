@@ -1,6 +1,6 @@
 # [mkurpiewski.com version 2.0](http://mkurpiewski.com/)
 [![mkurpiewski.com](http://mkurpiewski.com/assets/images/mkurpiewskicom.jpg)](http://mkurpiewski.com/)
-# Html5, CSS3, Sass(Scss), js, jQ.
+# Html5, CSS3, Sass(Scss), js, jQ, Gulp, npm.
 # Mobile first.
 # 1. Phone version. // 100%
 # 2. Tablet horizontal and landspace. // 100%
@@ -11,5 +11,6 @@
 # 6. Second main background color //
 # 7. Multi-language //
 # 8. Preloader - spinner //
+# 9. Scroll //
 # ...
 # [mkurpiewski.com-2.0](http://mkurpiewski.com/)
