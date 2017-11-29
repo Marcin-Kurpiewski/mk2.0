@@ -1,6 +1,6 @@
 # [mkurpiewski.com version 2.0](http://mkurpiewski.com/)
 [![mkurpiewski.com](http://mkurpiewski.com/assets/images/mkurpiewskicom.jpg)](http://mkurpiewski.com/)
-# Html5, CSS3, Sass(Scss), js, jQ, Gulp, npm.
+# HTML5, CSS3, Sass(Scss), js, jQ, Gulp, npm.
 # Mobile first.
 # 1. Phone version. // 100%
 # 2. Tablet horizontal and landspace. // 100%
