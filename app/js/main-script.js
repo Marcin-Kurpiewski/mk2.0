@@ -184,3 +184,15 @@ $(document).ready(function () {
 
 });
 
+var abc = document.getElementsByClassName('skills--img');
+var oneIMG = document.getElementById('imagesABC');
+
+console.log(abc);
+console.log(oneIMG);
+localStorage.setItem("abc", abc);
+
+console.log(localStorage);
+
+localStorage.setItem('oneIMG', oneIMG);
+
+console.log(localStorage);
