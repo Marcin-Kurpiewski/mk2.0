@@ -410,7 +410,18 @@ nav {
     }
   }
 }
-
+.port--item:hover{
+  opacity: 1;
+  animation: flash 2s;
+}
+@keyframes flash {
+  0% {
+    opacity: .1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .box1 {
   background: url("../images/5_Portfolio/github.jpg") no-repeat;
   background-size: cover;
