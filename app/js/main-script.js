@@ -1,19 +1,20 @@
 $(document).ready(function () {
     $('.nav--item').click(
-        function (event) {
-            event.preventDefault();
+        function (e) {
+            e.preventDefault();
             $('html, body').animate({
                 scrollTop: $($.attr(this, 'href')).offset().top - 90
             }, 800);
-            $('')
         });
 
-    function burgerMenu() {
+});
+
+    function burgerMenu(e) {
 
         var menuElem = document.getElementById('main_nav'),
             nav_btn = document.getElementById('btn-close');
         // console.log(nav_btn);
-        event.preventDefault();
+        e.preventDefault();
         if (menuElem.className === 'close--nav') {
             menuElem.className = 'open--nav';
             nav_btn.className = 'fa fa-times fa-3x';
@@ -177,5 +178,4 @@ $(document).ready(function () {
         ' 30px');
     console.log("%cH%ca%cv%ce%c %ca%c %cn%ci%cc%ce%c %cd%ca%cy %c!", "color:" +
         " #FF8E28; font-size:38px", "color: #40C71F; font-size:34px", "color:" +
-        " #5B7487; font-size:34px", "color: #E3E226; font-size:34px", "color: #6A8693; font-size:34px", "color: #EC8802; font-size:34px", "color: #9D44DE; font-size:34px", "color: #1F1C4D; font-size:34px", "color: #92812D; font-size:34px", "color: #7A412C; font-size:34px", "color: #73936F; font-size:34px", "color: ##9400D3; font-size:34px", "color: #ff0000; font-size:34px", "color: #ff7f00; font-size:34px", "color: #ffff00; font-size:34px", "color: #00ff00; font-size:34px")
-});
+" #5B7487; font-size:34px", "color: #E3E226; font-size:34px", "color: #6A8693; font-size:34px", "color: #EC8802; font-size:34px", "color: #9D44DE; font-size:34px", "color: #1F1C4D; font-size:34px", "color: #92812D; font-size:34px", "color: #7A412C; font-size:34px", "color: #73936F; font-size:34px", "color: ##9400D3; font-size:34px", "color: #ff0000; font-size:34px", "color: #ff7f00; font-size:34px", "color: #ffff00; font-size:34px", "color: #00ff00; font-size:34px")
