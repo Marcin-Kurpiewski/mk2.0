@@ -12,63 +12,66 @@ You will also find a review of the projects and used technologies.">
     <meta type="keywords"
           content="Marcin Kurpiewski, Kurpiewski, mkurpiewski.com, mkurpiewski, junior webdeveloper">
     <title>Marcin Kurpiewski junior webdeveloper, frontend and backend
-    developer, fullstack. mkurpiewski.com</title>
+        developer, fullstack. mkurpiewski.com</title>
     <link rel="shortcut icon" href="images/favicon.png">
     <link rel="stylesheet"
           href="extras/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/mainstyle.css">
 </head>
 <body>
+<header>
+    <div class="box__logo">
+        <a href="#home" class="btn--mobile">
+            <img
+                    src="images/6_Contact/log.png"
+                    alt="Brand logo">
+        </a>
+        <a href="#home" class="btn--desktop"><img
+                src="images/1_Home/logo.png"
+                alt="Brand logo"></a>
+    </div>
+    <div class="box__nav">
+        <nav class="close--nav" id="main_nav">
+            <h2>Navigation</h2>
+            <ul>
+                <li><a href="#home" class="nav--item">Home</a></li>
+                <li><a href="#about" class="nav--item">About</a>
+                </li>
+                <li><a href="#education"
+                       class="nav--item">Education</a></li>
+                <li><a href="#skills" class="nav--item">Skills</a>
+                </li>
+                <li><a href="#portfolio"
+                       class="nav--item">Portfolio</a></li>
+                <li><a href="#contact" class="nav--item">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="box__btn">
+        <button>
+            <a href="" class="btn--burger" id="brg_btn"><i
+                    class="fa fa-bars fa-3x" aria-hidden="true"
+                    id="btn-close"></i></a>
+        </button>
+
+    </div>
+    <div class="box__lang">
+        <a href="">PL /</a>
+        <a href=""> EN </a>
+    </div>
+</header>
 
 <section class="home" id="home">
     <div class="bg1">
         <div class="bg2">
             <h1><span class="name">Marcin Kurpiewski - </span></span><span
-                    class="span_1"><span
-                    class="span_2">jun</span>ior
+                    class="name--formatA"><span
+                    class="name--formatB">jun</span>ior
             </span><span
-                    class="span_1">frontend</span><span
-                    class="span_1">develo<span class="span_3">per</span>
+                    class="name--formatA">frontend</span><span
+                    class="name--formatA">develo<span class="name--formatC">per</span>
             </span></h1>
-            <header>
-                <div class="box__logo">
-                    <a href="#home" class="btn--mobile">
-                        <img
-                                src="images/6_Contact/log.png"
-                                alt="Brand logo">
-                    </a>
-                    <a href="#home" class="btn--desktop"><img
-                            src="images/1_Home/logo.png"
-                            alt="Brand logo"></a>
-                </div>
-                <div class="box__nav">
-                    <nav class="close--nav" id="main_nav">
-                        <h2>Navigation</h2>
-                        <ul>
-                            <li><a href="#home" class="nav--item">Home</a></li>
-                            <li><a href="#about" class="nav--item">About</a>
-                            </li>
-                            <li><a href="#education"
-                                   class="nav--item">Education</a></li>
-                            <li><a href="#skills" class="nav--item">Skills</a>
-                            </li>
-                            <li><a href="#portfolio"
-                                   class="nav--item">Portfolio</a></li>
-                            <li><a href="#contact" class="nav--item">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="box__btn">
-                    <a href="" class="btn--burger" id="brg_btn"><i
-                            class="fa fa-bars fa-3x" aria-hidden="true"
-                            id="btn-close"></i></a>
-                </div>
-                <div class="box__lang">
-                    <a href="">PL /</a>
-                    <a href=""> EN </a>
-                </div>
-            </header>
             <div class="social__home">
                 <ul>
                     <li><a href="https://github.com/Marcin-Kurpiewski/"><i
@@ -90,10 +93,10 @@ You will also find a review of the projects and used technologies.">
     <div class="about-bg">
         <div class="about-img">
             <img src="images/2_About/photo1.png" class="main-photo"
-                 alt="author portrait">
+                 alt="Marcin Kurpiewski">
             <a href="CV/Marcin%20Kurpiewski%20CV%20-%20webdeveloper%20.pdf"
                class="download__btn">download cv<img
-                    src="images/2_About/Dwonload_icon.png"></a>
+                    src="images/2_About/Dwonload_icon.png" alt=""></a>
         </div>
         <div class="about__list">
             <dl>
@@ -145,8 +148,8 @@ You will also find a review of the projects and used technologies.">
     <h2>Skills</h2>
     <div class="skills_container">
         <div class="skills__box">
-            <img id='imagesABC' src="images/4_Skills/icon_1.png"
-                 class="skills--img">
+            <img src="images/4_Skills/icon_1.png"
+                 class="skills--img" alt="">
             <h3 class="skills--title"><span>I'm</span> using<img
                     src="images/4_Skills/dot_point.png"
                     class="skills--point"></h3>
@@ -168,7 +171,7 @@ You will also find a review of the projects and used technologies.">
             </ul>
         </div>
         <div class="skills__box">
-            <img src="images/4_Skills/icon_2.png" class="skills--img">
+            <img src="images/4_Skills/icon_2.png" class="skills--img" alt="">
             <h3 class="skills--title"><span>I'm</span> learning<img
                     src="images/4_Skills/dot_point.png"
                     class="skills--point"></h3>
@@ -185,7 +188,7 @@ You will also find a review of the projects and used technologies.">
             </ul>
         </div>
         <div class="skills__box">
-            <img src="images/4_Skills/icon_3.png" class="skills--img">
+            <img src="images/4_Skills/icon_3.png" class="skills--img" alt="">
             <h3 class="skills--title"><span>I w</span>ill develop<img
                     src="images/4_Skills/dot_point.png"
                     class="skills--point"></h3>
@@ -204,7 +207,7 @@ You will also find a review of the projects and used technologies.">
     <ul class="port__list" id="port__list">
         <li class="port--item box1">
             <ul>
-                <li class="dynamic--list"><h3 class="port--heading">Github</h3>
+                <li><h3 class="port--heading">Github</h3>
                 </li>
                 <li>Its a lot lines of code</li>
                 <li class="point"></li>
@@ -214,7 +217,7 @@ You will also find a review of the projects and used technologies.">
         </li>
         <li class="port--item box2">
             <ul>
-                <li class="dynamic--list"><h3 class="port--heading">
+                <li><h3 class="port--heading">
                     bitbucket</h3></li>
                 <li>Another repo</li>
                 <li class="point"></li>
@@ -223,7 +226,7 @@ You will also find a review of the projects and used technologies.">
         </li>
         <li class="port--item box3">
             <ul>
-                <li class="dynamic--list"><h3 class="port--heading">barista</h3>
+                <li><h3 class="port--heading">barista</h3>
                 </li>
                 <li>HTML5, SCSS, BS4, GULP, JS</li>
                 <li class="point"></li>
@@ -233,7 +236,7 @@ You will also find a review of the projects and used technologies.">
         </li>
         <li class="port--item box4">
             <ul>
-                <li class="dynamic--list"><h3 class="port--heading">
+                <li><h3 class="port--heading">
                     maxstudio</h3></li>
                 <li>WORDPRESS</li>
                 <li class="point"></li>
@@ -243,7 +246,7 @@ You will also find a review of the projects and used technologies.">
         </li>
         <li class="port--item box5">
             <ul>
-                <li class="dynamic--list"><h3 class="port--heading">
+                <li><h3 class="port--heading">
                     lux-clean.dk</h3></li>
                 <li>HTML, CSS, BS3</li>
                 <li class="point"></li>
@@ -254,7 +257,7 @@ You will also find a review of the projects and used technologies.">
         </li>
         <li class="port--item box6">
             <ul>
-                <li class="dynamic--list"><h3 class="port--heading">event
+                <li><h3 class="port--heading">event
                     landing page</h3></li>
                 <li>HTML5, CSS3, JS</li>
                 <li class="point"></li>
@@ -264,7 +267,7 @@ You will also find a review of the projects and used technologies.">
         </li>
         <li class="port--item box7">
             <ul>
-                <li class="dynamic--list"><h3 class="port--heading">
+                <li><h3 class="port--heading">
                     eventapp</h3></li>
                 <li>, HTML, CSS, Angular js</li>
                 <li class="point"></li>
@@ -274,7 +277,7 @@ You will also find a review of the projects and used technologies.">
         </li>
         <li class="port--item box8">
             <ul>
-                <li class="dynamic--list"><h3 class="port--heading">casino
+                <li><h3 class="port--heading">casino
                     game</h3></li>
                 <li>HTML, CSS, JS</li>
                 <li class="point"></li>
