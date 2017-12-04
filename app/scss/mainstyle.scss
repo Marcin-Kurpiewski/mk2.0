@@ -70,22 +70,22 @@ h1 {
   .name {
     display: none;
   }
-  .span_1 {
+  .name--formatA {
     display: block;
     position: relative;
     top: calc(50% - 29px);
     left: 35px;
   }
-  .span_2 {
+  .name--formatB {
     border-top: 1px solid $white;
     padding-top: 3px;
   }
-  .span_3 {
+  .name--formatC {
     border-bottom: 1px solid $white;
     padding-bottom: 5px;
   }
 
-  .span_1:nth-child(2n) {
+  .name--formatA:nth-child(2n) {
     font-weight: bold;
   }
 }
@@ -136,6 +136,10 @@ header {
     height: 50px;
     cursor: pointer;
   }
+  button{
+    background-color: transparent;
+    border: none;
+  }
 }
 
 .box__nav {
@@ -163,6 +167,9 @@ nav {
     transition: background-color 1s linear;
     &:hover {
       background-color: $blue;
+    }
+    &:focus{
+      background-color: $red;
     }
   }
 }
