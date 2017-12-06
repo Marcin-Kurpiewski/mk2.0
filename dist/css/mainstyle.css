@@ -43,9 +43,7 @@ h1 {
   top: calc(50% - 80px);
   font-size: 18px;
   text-transform: uppercase;
-  overflow: hidden;
-  display: none;
-}
+  overflow: hidden; }
   h1::after {
     content: "";
     background-color: #fff;
